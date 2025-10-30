@@ -7,148 +7,148 @@
     }
   },
   "introductionSection": {
-    "introHeading": "Welcome to GreenSolution - Your Technology Partner",
-    "introDesc": "At GreenSolution, we recognize each business operates with distinct needs. Our adaptable service models provide access to comprehensive solutions. From initial Proof of Concept validation to complete Managed Services or team expansion through Staff Augmentation, we customize our offerings to align with your objectives. Utilizing Jira and Jira Service Desk platforms, we maintain complete visibility and streamlined project oversight. Flexible billing arrangements, available weekly, bi-weekly, or monthly, offer financial planning adaptability to suit your operational rhythm."
+    "introHeading": "Welcome to GreenSolution - Your Digital Transformation Partner",
+    "introDesc": "GreenSolution is a lean, process-driven web development software house operating on a robust hybrid model. We combine international market competitiveness with specialized local expertise to deliver professional digital solutions for conversion and long-term scalability. Serving both global clients through platforms like Upwork and Pakistani SMEs, we bridge the digitization gap with modern web technologies and transparent, milestone-based workflows."
   },
   "detailSection": {
-    "heading": "Comprehensive Service Delivery Models",
+    "heading": "Our Core Service Models",
     "detailInd": [
       {
-        "title": "Concept Validation (POC)",
-        "smDescription": "From Vision to Viable Prototype",
-        "description": "Our Concept Validation service enables practical testing of innovative concepts before committing to full implementation. We develop functional prototypes that showcase your idea's viability and real-world application. This methodology minimizes uncertainty, delivers clear direction, and confirms your initiative's strategic alignment from inception.",
+        "title": "Custom Web Development",
+        "smDescription": "Scalable Solutions with Modern Tech Stacks",
+        "description": "We build professional, mobile-optimized websites and web applications using modern technologies like MERN/MEVN, WordPress, and Shopify. Our focus on UI/UX best practices ensures high-converting digital experiences that drive business growth.",
         "keyBenefits": [
-          "Rapid concept verification process",
-          "Early detection of implementation hurdles",
-          "Demonstrate viability to stakeholders with working models",
-          "Minimize resource expenditure on unproven concepts"
+          "Modern technology stacks (MERN, WordPress, Shopify)",
+          "Mobile-optimized and responsive design",
+          "UI/UX focused for maximum conversion",
+          "Scalable architecture for future growth"
         ]
       },
       {
-        "title": "Adaptive Resource Engagement",
-        "smDescription": "Dynamic Development Framework",
-        "description": "Our Adaptive Resource model offers responsive project oversight, where investment reflects actual effort and materials utilized. This flexible structure accommodates evolving specifications while maintaining quality standards throughout the development lifecycle.",
+        "title": "Niche Industry Solutions",
+        "smDescription": "Specialized for Pakistani SMEs",
+        "description": "Targeting key local sectors including Medical Clinics and Educational Institutes, we deliver standardized yet customized solutions with integrated booking systems, payment gateways, and custom listing portals tailored to Pakistani market needs.",
         "keyBenefits": [
-          "Responsive project coordination",
-          "Clear cost structures tied to deliverables",
-          "Capacity to incorporate requirement changes",
-          "Optimal for fluid project parameters"
+          "Industry-specific solutions for medical and education sectors",
+          "Local payment gateway integrations",
+          "Booking and management systems",
+          "Reduced reliance on high-commission platforms"
         ]
       },
       {
-        "title": "Fixed-Scope Engagements",
-        "smDescription": "Structured Delivery with Financial Certainty",
-        "description": "Our Fixed-Scope solution delivers predetermined outcomes within established budgets. Comprehensive project blueprints with locked pricing eliminate financial variability, ideal for initiatives with clearly articulated specifications and timelines.",
+        "title": "Recurring Revenue Services",
+        "smDescription": "Sustainable Growth Partnership",
+        "description": "Our post-launch services ensure your digital presence remains optimized, secure, and effective. We offer managed hosting, security monitoring, performance optimization, and SEO retainer packages for ongoing business success.",
         "keyBenefits": [
-          "Budget predictability without unexpected charges",
-          "Defined project parameters and milestones",
-          "Streamlined financial oversight",
-          "Perfect for well-specified initiatives"
+          "Managed hosting and domain services",
+          "Continuous security monitoring",
+          "Performance optimization",
+          "Monthly SEO and content updates"
         ]
       },
       {
-        "title": "End-to-End Technology Stewardship",
-        "smDescription": "Holistic Digital Infrastructure Management",
-        "description": "Our comprehensive stewardship solution assumes complete responsibility for your technological ecosystem. From system upkeep to cybersecurity protocols, we ensure continuous operations so you can concentrate on primary business functions through our preventative maintenance philosophy.",
+        "title": "International Freelance Excellence",
+        "smDescription": "Global Competitiveness",
+        "description": "Leveraging platforms like Upwork, we deliver reliable, process-oriented development services to international clients, distinguishing ourselves through on-time delivery, budget adherence, and professional project management.",
         "keyBenefits": [
-          "Complete technology oversight",
-          "Preventative system surveillance",
-          "Strengthened data protection measures",
-          "Liberates focus for core business priorities"
+          "5-star rated international service delivery",
+          "Process-driven project management",
+          "On-time and on-budget delivery",
+          "Professional communication standards"
         ]
       },
       {
-        "title": "Team Extension Services",
-        "smDescription": "Strategic Talent Integration",
-        "description": "Our Team Extension solution provides on-demand access to specialized professionals. Scale your workforce with vetted developers, designers, or IT experts who assimilate effortlessly with your existing teams, accelerating project completion and bridging competency requirements.",
+        "title": "Hybrid Business Model",
+        "smDescription": "Balanced Market Approach",
+        "description": "Our unique hybrid model secures foundational revenue through international markets while capturing high-margin opportunities in the local Pakistani SME sector, ensuring business stability and growth potential.",
         "keyBenefits": [
-          "Curated network of qualified specialists",
-          "Elastic team composition aligned to project phases",
-          "Harmonious collaboration with internal staff",
-          "Effective resolution of capability shortages"
+          "Revenue stability through diverse markets",
+          "Local market expertise with global standards",
+          "Competitive international pricing",
+          "High-margin local SME projects"
         ]
       }
     ]
   },
   "projectManagement": {
-    "projectHeading": "Project Coordination Systems",
+    "projectHeading": "Our Development Process",
     "toolsTech": [
       {
-        "heading": "Jira",
-        "detail": "Comprehensive project oversight and workflow management",
-        "images": ["/pm-image-1.png"]
+        "heading": "Milestone-Based Workflow",
+        "detail": "Transparent project delivery with clear milestones and regular client updates",
+        "images": ["/process-1.png"]
       },
       {
-        "heading": "Jira Service Desk",
-        "detail": "Streamlined service request administration",
-        "images": ["/pm-image-2.png"]
+        "heading": "Modern Tech Stack",
+        "detail": "Cutting-edge technologies including React, Node.js, WordPress and Shopify",
+        "images": ["/tech-2.png"]
       },
       {
-        "heading": "Jira-Confluence Integration",
-        "detail": "Unified documentation and knowledge sharing environment",
-        "images": ["/pm-image-3.png"]
+        "heading": "Quality Assurance",
+        "detail": "Rigorous testing for performance, security and user experience",
+        "images": ["/qa-3.png"]
       }
     ]
   },
   "projectCycleSection": {
-    "projectCycleHaeding": "Our Development Lifecycle Phases",
+    "projectCycleHaeding": "Our Process-Driven Development Lifecycle",
     "projectLifeCycle": [
       {
-        "heading": "Exploration & Assessment",
-        "detail": "We conduct thorough preliminary analysis to establish project foundations and strategic direction"
+        "heading": "Discovery & Strategy",
+        "detail": "Comprehensive analysis of business objectives, target market, and conversion goals to establish project foundation"
       },
       {
-        "heading": "Financial Planning & Roadmapping",
-        "detail": "Methodical resource allocation and timeline development for optimal project execution"
+        "heading": "Milestone Planning",
+        "detail": "Transparent project breakdown with clear deliverables, timelines, and budget allocation using agile methodology"
       },
       {
-        "heading": "Solution Architecture & Implementation",
-        "detail": "Engineering innovative systems through structured development methodologies and continuous enhancement"
+        "heading": "Development & Integration",
+        "detail": "Building scalable solutions using modern stacks with focus on UI/UX best practices and local market integrations"
       },
       {
-        "heading": "Quality Verification & Deployment",
-        "detail": "Comprehensive testing protocols and scheduled implementation for superior deliverables"
+        "heading": "Quality Assurance",
+        "detail": "Rigorous testing for performance, mobile optimization, security, and conversion effectiveness"
       },
       {
-        "heading": "Ongoing Support & System Optimization",
-        "detail": "Continuous technical assistance and system updates to maintain peak operational performance"
+        "heading": "Launch & Deployment",
+        "detail": "Smooth deployment with comprehensive documentation and client training for seamless transition"
       },
       {
-        "heading": "Evolutionary Enhancement",
-        "detail": "Progressive refinement of methodologies and deliverables to exceed client expectations"
+        "heading": "Growth & Optimization",
+        "detail": "Ongoing support, maintenance, and optimization services to ensure long-term digital success"
       }
     ]
   },
   "summarySection": {
-    "summaryHeading": "Achieving Business Objectives",
-    "summaryMessage": "GreenSolution delivers versatile service frameworks tailored to organizational requirements. Our customized approaches, administered through integrated Jira platforms, guarantee clarity, productivity, and adaptability. Whether requiring concept validation, flexible resourcing, fixed-scope delivery, complete technology management, or specialized staffing solutions, we supply the knowledge and assets to drive your success."
+    "summaryHeading": "Driving Digital Excellence in Pakistan",
+    "summaryMessage": "GreenSolution combines international development standards with deep local market understanding. Our hybrid business model ensures we deliver professional, process-driven web solutions that help Pakistani SMEs compete digitally while maintaining global service quality. From custom development to recurring revenue services, we provide the technology partnership needed for sustainable business growth in today's digital landscape."
   },
   "bannerFiveImage": {
     "_ref": "image-...",
     "_type": "reference"
   },
   "callToActionSection": {
-    "callToActionHeading": "Begin Your Transformation Journey",
-    "callToAction": "Interested in exploring our adaptable service models? Connect with GreenSolution to discover customized solutions designed for your unique business challenges."
+    "callToActionHeading": "Start Your Digital Transformation",
+    "callToAction": "Ready to bridge the digitization gap? Contact GreenSolution to discuss custom web solutions for your business."
   },
   "paymentOption": {
-    "paymentHeading": "Financial Transaction Methods",
-    "paymentDetail": "We accommodate various payment channels. Please note clients are responsible for any applicable processing fees.",
+    "paymentHeading": "Flexible Payment Solutions",
+    "paymentDetail": "We offer multiple payment options to accommodate both international and local clients, including secure online payments and platform-based transactions.",
     "paymentTools": [
-      {
-        "heading": "Stripe",
-        "detail": "Digital payments platform",
-        "images": ["/stripe.png"]
-      },
-      {
-        "heading": "Upwork",
-        "detail": "Upwork integration",
-        "images": ["/upwork.png"]
-      },
       {
         "heading": "Payoneer",
         "detail": "Global payment network",
         "images": ["/payonner.png"]
+      },
+      {
+        "heading": "Upwork",
+        "detail": "Platform-based secure payments",
+        "images": ["/upwork.png"]
+      },
+      {
+        "heading": "Allied Bank Transfer",
+        "detail": "Direct bank transfers for local clients",
+        "images": ["/bank-transfer.png"]
       }
     ]
   }

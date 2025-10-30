@@ -30,7 +30,7 @@
     },
     {
       "title": "Schedule a Call",
-      "href": "https://calendly.com/adnanghaffar",
+      "href": "",
       "target": "_blank",
       "rel": "noopener noreferrer"
     }
@@ -45,7 +45,7 @@
       "alt": "clutch-icon"
     },
     {
-      "href": "https://www.trustpilot.com/review/innovaSynx",
+      "href": "",
       "target": "_blank",
       "rel": "noopener noreferrer",
       "src": "/Trustpilot.png",
@@ -66,84 +66,84 @@
       "alt": "Google_Scholar_logo-icon"
     }
   ],
-  "about": {
-    "title": "Why Global Brands Choose Our Development Solutions",
-    "description": "We deliver innovative, scalable, and secure software that empowers businesses to achieve lasting success and stay ahead in a competitive market."
-  },
+"about": {
+  "title": "Engineering Digital Growth for Global Clients & Local Enterprises",
+  "description": "We deliver process-driven web solutions that convert visitors into customers and scale with your business growth, bridging the gap between global quality standards and local market needs."
+},
   "expertiseHome": {
     "title": "Our Expertise in Software Development",
     "description": "Work with our team of 70+ skilled software engineers, experienced in over 100 technologies and available in your time zone. We provide an extensive range of development services designed to meet your exact business needs.",
     "endDescription": "Collaborate with us to leverage exceptional expertise and dedicated support, enabling your business to harness cutting-edge technologies and achieve remarkable growth."
   },
-  "servicesCard": {
-    "description": "With years of proven expertise, we understand that every business operates within unique technological frameworks. Our diverse range of software development services is designed to meet your specific product goals and operational needs.",
-    "services": [
-      {
-        "icon": "/end-to-end-1 (2).png",
-        "title": "Tailored Software Solutions",
-        "description": "Build custom applications that drive innovation, improve efficiency, and give your business a competitive edge.",
-        "alt": "Tailored Custom Software Development Company USA"
-      },
-      {
-        "icon": "/end-2.png",
-        "title": "Global Offshore Development",
-        "description": "Access world-class talent at competitive costs with streamlined offshore development services and reliable project delivery.",
-        "alt": "Global Offshore Software Development Services USA"
-      },
-      {
-        "icon": "/end-to-end-3.png",
-        "title": "Enterprise-Grade Applications",
-        "description": "Deliver robust, scalable, and secure enterprise solutions that empower business growth and support complex operations.",
-        "alt": "Enterprise Software Development Company USA"
-      },
-      {
-        "icon": "/end-to-end-4.png",
-        "title": "Seamless Software Integration",
-        "description": "Unify systems and eliminate data silos with smooth integration processes that enhance productivity and workflow efficiency.",
-        "alt": "Seamless Software Integration Services USA"
-      }
-    ]
+ "servicesCard": {
+  "description": "We deliver process-driven web solutions that bridge global quality standards with local market needs. Our hybrid approach combines international best practices with deep understanding of Pakistani SME requirements.",
+  "services": [
+    {
+      "icon": "/end-to-end-1 (2).png",
+      "title": "Custom Web Development",
+      "description": "Build scalable, conversion-focused websites and web applications using modern stacks like MERN/MEVN, WordPress, and Shopify with UI/UX best practices.",
+      "alt": "Custom Web Development Services Pakistan"
+    },
+    {
+      "icon": "/end-2.png",
+      "title": "Niche Industry Solutions",
+      "description": "Specialized digital solutions for medical clinics and educational institutes featuring booking systems, payment gateways, and custom management portals.",
+      "alt": "Industry Specific Web Solutions Pakistan"
+    },
+    {
+      "icon": "/end-to-end-3.png",
+      "title": "Milestone-Based Development",
+      "description": "Transparent, process-driven project delivery with clear milestones, regular updates, and guaranteed on-time completion for both local and international clients.",
+      "alt": "Process Driven Web Development"
+    },
+    {
+      "icon": "/end-to-end-4.png",
+      "title": "Recurring Growth Services",
+      "description": "Post-launch managed hosting, security monitoring, performance optimization, and SEO packages to ensure long-term scalability and business growth.",
+      "alt": "Managed Web Services Pakistan"
+    }
+  ]
+},
+ "features": [
+  {
+    "number": 1,
+    "title": "Process-Driven Delivery",
+    "description": "Our milestone-based workflow ensures transparent progress tracking, on-time delivery, and guaranteed results for both international and local clients."
   },
-  "features": [
-    {
-      "number": 1,
-      "title": "Proven Track Record",
-      "description": "Years of delivering exceptional software solutions have equipped us with deep technical expertise and industry insight, ensuring every project meets the highest standards."
-    },
-    {
-      "number": 2,
-      "title": "Tailored Development",
-      "description": "We understand every business is unique. Our team crafts bespoke software solutions built precisely to your requirements for maximum efficiency and impact."
-    },
-    {
-      "number": 3,
-      "title": "Agile-Driven Process",
-      "description": "Leveraging agile methodologies, we adapt quickly to changes, accelerate delivery timelines, and maintain consistent quality throughout development."
-    },
-    {
-      "number": 4,
-      "title": "End-to-End Support",
-      "description": "From the first brainstorming session to post-launch optimization, our experts stay by your side, ensuring your project runs smoothly at every stage."
-    }
-  ],
-  "highlights": [
-    {
-      "icon": "<svg xmlns='http://www.w3.org/2000/svg' class='w-6 h-6' fill='none' stroke='currentColor' viewBox='0 0 24 24'><path stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M13 10V3L4 14h7v7l9-11h-7z'/></svg>",
-      "text": "Trusted Leader in Cutting-Edge Software Development"
-    },
-    {
-      "icon": "<svg xmlns='http://www.w3.org/2000/svg' class='w-6 h-6' fill='none' stroke='currentColor' viewBox='0 0 24 24'><path stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z'/><path stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M15 11a3 3 0 11-6 0 3 3 0 016 0z'/></svg>",
-      "text": "Proven Expertise in Building High-Performance Remote Teams"
-    },
-    {
-      "icon": "<svg xmlns='http://www.w3.org/2000/svg' class='w-6 h-6' fill='none' stroke='currentColor' viewBox='0 0 24 24'><path stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z'/></svg>",
-      "text": "Innovation-Driven Solutions with Excellence at the Core"
-    },
-    {
-      "icon": "<svg xmlns='http://www.w3.org/2000/svg' class='w-6 h-6' fill='none' stroke='currentColor' viewBox='0 0 24 24'><path stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z'/></svg>",
-      "text": "Proudly Serving Clients Worldwide Since 2018"
-    }
-  ],
+  {
+    "number": 2,
+    "title": "Hybrid Market Expertise",
+    "description": "We combine global quality standards from international freelance platforms with deep understanding of Pakistani SME sector needs and challenges."
+  },
+  {
+    "number": 3,
+    "title": "Niche Industry Specialization",
+    "description": "Focused expertise in medical clinics and educational institutes, delivering standardized yet customized solutions with local payment and booking integrations."
+  },
+  {
+    "number": 4,
+    "title": "Long-Term Growth Partnership",
+    "description": "Beyond development, we provide ongoing managed hosting, security, and SEO services to ensure your digital presence scales with your business."
+  }
+],
+"highlights": [
+  {
+    "icon": "<svg xmlns='http://www.w3.org/2000/svg' class='w-6 h-6' fill='none' stroke='currentColor' viewBox='0 0 24 24'><path stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M13 10V3L4 14h7v7l9-11h-7z'/></svg>",
+    "text": "Process-Driven Development for Guaranteed Results"
+  },
+  {
+    "icon": "<svg xmlns='http://www.w3.org/2000/svg' class='w-6 h-6' fill='none' stroke='currentColor' viewBox='0 0 24 24'><path stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z'/><path stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M15 11a3 3 0 11-6 0 3 3 0 016 0z'/></svg>",
+    "text": "Bridging Global Quality with Local Market Expertise"
+  },
+  {
+    "icon": "<svg xmlns='http://www.w3.org/2000/svg' class='w-6 h-6' fill='none' stroke='currentColor' viewBox='0 0 24 24'><path stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z'/></svg>",
+    "text": "Hybrid Model: Global Reach with Local Impact"
+  },
+  {
+    "icon": "<svg xmlns='http://www.w3.org/2000/svg' class='w-6 h-6' fill='none' stroke='currentColor' viewBox='0 0 24 24'><path stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z'/></svg>",
+    "text": "Specialized in Medical & Education Sector Digitization"
+  }
+],
   "stats": [
     {
       "icon": "/cta-1.png",
@@ -174,88 +174,88 @@
       "alt": "Global Clients Icon"
     }
   ],
-  "process": {
-    "title": "Our Development Methodology",
-    "description": "A well-structured, collaborative, and innovation-driven approach to building solutions that accelerate your business growth.",
-    "processImage": "/development-methodology.png",
-    "cards": [
-      {
-        "icon": "<svg className=\"w-6 h-6 text-white\" fill=\"none\" stroke=\"currentColor\" viewBox=\"0 0 24 24\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z\"/></svg>",
-        "title": "Collaborative Excellence",
-        "description": "We merge teamwork, innovation, and precision to create tailored solutions, ensuring every project meets the highest quality standards."
-      },
-      {
-        "icon": "<svg className=\"w-6 h-6 text-white\" fill=\"none\" stroke=\"currentColor\" viewBox=\"0 0 24 24\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z\"/></svg>",
-        "title": "Innovative by Design",
-        "description": "Leveraging cutting-edge technologies and creative thinking, we craft forward-looking solutions that stand out in the market."
-      },
-      {
-        "icon": "<svg className=\"w-6 h-6 text-white\" fill=\"none\" stroke=\"currentColor\" viewBox=\"0 0 24 24\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M13 7h8m0 0v8m0-8l-8 8-4-4-6 6\"/></svg>",
-        "title": "Growth-Driven Execution",
-        "description": "Our strategies are built to accelerate business outcomes, focusing on long-term scalability and competitive advantage."
-      }
-    ]
-  },
-  "developmentProcess": {
-    "title": "",
-    "description": "",
-    "processes": [
-      {
-        "image": "/4.png",
-        "title": "Project Initiation",
-        "description": "We begin by understanding your goals, audience, and challenges. Our strategy, design, and engineering experts collaborate to define the product vision and success roadmap."
-      },
-      {
-        "image": "/3.png",
-        "title": "Design",
-        "description": "Through research-driven creativity, we craft intuitive and visually engaging designs that solve real problems and enhance the user journey."
-      },
-      {
-        "image": "/development-icon.svg",
-        "title": "Development",
-        "description": " Our development team builds scalable, secure, and high-performing applications—turning concepts into fully functional, market-ready solutions."
-      },
-      {
-        "image": "/automate-icon.svg",
-        "title": "Automate",
-        "description": "We implement smart automation and rigorous testing to optimize workflows, reduce manual effort, and ensure long-term system reliability."
-      },
-      {
-        "image": "/6.png",
-        "title": "Launch",
-        "description": "With quality checks completed and your approval secured, we launch the product—positioning it for immediate impact and sustained growth."
-      },
-      {
-        "image": "/5.png",
-        "title": "Archives & Artifacts",
-        "description": "We hand over all essential project documentation, specifications, and deployment assets—equipping you for future updates and enhancements."
-      }
-    ]
-  },
-  "faqs": [
+"process": {
+  "title": "Our Process-Driven Development Methodology",
+  "description": "A structured, milestone-based approach that combines global quality standards with local market expertise to deliver conversion-focused web solutions.",
+  "processImage": "/development-methodology.png",
+  "cards": [
     {
-      "title": "Our Technology & Language Expertise",
-      "content": "We work with a wide array of modern technologies and programming languages including Java, Python, JavaScript, .NET, PHP, Ruby on Rails, Selenium, Playwright, Katalon, AltUnity, and more. Our team adapts to each project’s unique requirements to deliver optimal results."
+      "icon": "<svg className=\"w-6 h-6 text-white\" fill=\"none\" stroke=\"currentColor\" viewBox=\"0 0 24 24\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z\"/></svg>",
+      "title": "Milestone-Based Delivery",
+      "description": "Transparent progress tracking with clear milestones ensuring on-time delivery and budget adherence for every project."
     },
     {
-      "title": "Industries We Serve",
-      "content": "From healthcare and finance to e-commerce, technology, and telecommunications, we’ve partnered with businesses across diverse sectors. Our broad experience enables us to bring industry-specific insights to every project."
+      "icon": "<svg className=\"w-6 h-6 text-white\" fill=\"none\" stroke=\"currentColor\" viewBox=\"0 0 24 24\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z\"/><path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M15 11a3 3 0 11-6 0 3 3 0 016 0z\"/></svg>",
+      "title": "Hybrid Market Expertise",
+      "description": "Combining global quality standards from international platforms with specialized local market expertise for optimal results."
     },
     {
-      "title": "Comprehensive Testing Solutions",
-      "content": "Our testing capabilities cover functional, performance, security, regression, automation, and more. We ensure every product we test meets the highest standards for reliability, performance, and user satisfaction."
-    },
-    {
-      "title": "Commitment to Data Security",
-      "content": "Protecting your data and intellectual property is our top priority. We follow rigorous security protocols, enforce strict access controls, and are always ready to sign NDAs to safeguard sensitive information."
-    },
-    {
-      "title": "Our Global Team",
-      "content": "We operate from multiple locations worldwide, including offices in the USA, Canada, and Pakistan. Our distributed team structure enables continuous support and efficient delivery regardless of time zones."
-    },
-    {
-      "title": "Our Development Approach",
-      "content": "We follow a structured, collaborative process: requirements gathering, design, development, testing, deployment, and ongoing maintenance. Communication is embedded at every stage to ensure alignment and project success."
+      "icon": "<svg className=\"w-6 h-6 text-white\" fill=\"none\" stroke=\"currentColor\" viewBox=\"0 0 24 24\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M13 10V3L4 14h7v7l9-11h-7z\"/></svg>",
+      "title": "Conversion-Focused Development",
+      "description": "Building scalable websites and applications designed specifically to generate leads and drive business growth."
     }
   ]
+},
+"developmentProcess": {
+  "title": "Our Development Journey",
+  "description": "A structured, milestone-driven process that transforms your vision into conversion-focused web solutions—every step designed for transparency and business growth.",
+  "processes": [
+    {
+      "image": "/4.png",
+      "title": "Discovery & Strategy",
+      "description": "We analyze your business goals, target audience, and market position to define a clear roadmap for your conversion-focused web solution."
+    },
+    {
+      "image": "/3.png",
+      "title": "UI/UX Design",
+      "description": "Creating intuitive, mobile-optimized designs that enhance user experience and drive conversions for your specific industry needs."
+    },
+    {
+      "image": "/development-icon.svg",
+      "title": "Milestone Development",
+      "description": "Building scalable web applications using modern stacks with transparent milestone-based progress tracking and regular updates."
+    },
+    {
+      "image": "/automate-icon.svg",
+      "title": "Integration & Testing",
+      "description": "Implementing booking systems, payment gateways, and rigorous testing to ensure seamless functionality across all platforms."
+    },
+    {
+      "image": "/6.png",
+      "title": "Launch & Deployment",
+      "description": "Quality-assured deployment with complete handover, positioning your digital presence for immediate market impact and lead generation."
+    },
+    {
+      "image": "/5.png",
+      "title": "Growth Partnership",
+      "description": "Ongoing managed services including hosting, security, and SEO to ensure long-term scalability and business growth."
+    }
+  ]
+},
+ "faqs": [
+  {
+    "title": "What technologies and platforms do you work with?",
+    "content": "We specialize in modern web development stacks including MERN/MEVN (MongoDB, Express, React/Vue, Node.js), WordPress, Shopify, and custom web applications. Our focus is on building scalable, conversion-focused websites with seamless payment gateway integrations for local Pakistani markets."
+  },
+  {
+    "title": "Which industries do you specialize in?",
+    "content": "We have deep expertise in medical clinics and educational institutes, providing specialized solutions like online booking systems, fee payment gateways, and custom management portals. We also serve international clients across various sectors through freelance platforms."
+  },
+  {
+    "title": "What is your development process?",
+    "content": "We follow a milestone-based, transparent workflow: Discovery & Strategy → UI/UX Design → Milestone Development → Integration & Testing → Launch → Ongoing Growth Support. Each phase includes regular updates and client approvals to ensure alignment with your business goals."
+  },
+  {
+    "title": "Do you offer post-launch support and maintenance?",
+    "content": "Yes, we provide comprehensive recurring services including managed hosting, security monitoring, performance optimization, and SEO retainer packages to ensure your website remains secure, fast, and effective in generating leads long-term."
+  },
+  {
+    "title": "How do you handle projects for both local and international clients?",
+    "content": "Our hybrid model combines global quality standards from international freelance platforms with specialized local market expertise. We maintain the same process-driven approach for all clients while adapting to specific market needs and payment preferences."
+  },
+  {
+    "title": "What makes your approach different from other web developers?",
+    "content": "We focus on process-driven, conversion-optimized web solutions rather than just technical development. Our milestone-based approach ensures transparency, our niche expertise delivers industry-specific results, and our recurring services provide long-term growth partnerships."
+  }
+]
 }

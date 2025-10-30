@@ -61,27 +61,27 @@ export default function Home() {
   const stats = [
     {
       imageSrc: "/stats1.png",
-      alt: "Enterprise Software Development",
-      heading: "Enterprise Partnerships",
-      text: "Partnered with over 250 enterprises worldwide to deliver scalable and future-ready software solutions",
+      alt: "Web Development Process Excellence",
+      heading: "Process-Driven Delivery",
+      text: "100% on-time project delivery through our milestone-based development workflow and transparent client communication",
     },
     {
       imageSrc: "/stats2.png",
-      alt: "Software Development Company - Successful Deliveries",
-      heading: "Successful Deliveries",
-      text: "Delivered 400+ successful projects, empowering businesses with innovative digital products",
+      alt: "Custom Web Development Solutions",
+      heading: "Custom Solutions Deployed",
+      text: "Built 50+ scalable web applications and portals for international clients and local Pakistani SMEs",
     },
     {
       imageSrc: "/stats3.png",
-      alt: "Global App Development and Testing",
-      heading: "App Development & Testing",
-      text: "Evaluated and optimized 350+ applications to meet the highest performance and security standards",
+      alt: "Local Industry Digital Transformation",
+      heading: "Local Industries Transformed",
+      text: "Digitized 30+ medical clinics and educational institutes with custom booking and payment systems",
     },
     {
       imageSrc: "/stats4.png",
-      alt: "Software Quality Assurance - Issues Resolved",
-      heading: "Quality Assurance",
-      text: "Resolved more than 180k software issues, ensuring seamless user experiences across all platforms",
+      alt: "Recurring Maintenance Services",
+      heading: "Managed Services",
+      text: "Providing ongoing hosting, security, and SEO services to ensure long-term performance and reliability",
     },
   ];
 
@@ -223,13 +223,133 @@ export default function Home() {
           </div>
         </div>
       </div>
+ {/* Who We Are Section */}
+      <section className="relative py-16 lg:py-24 bg-gradient-to-br from-[#10b981] via-white to-white overflow-hidden">
+        {/* Background Decorative Elements - Changed to green */}
+        <div className="absolute top-1/4 right-0 w-72 h-72 bg-gradient-to-bl from-green-100 to-transparent rounded-full opacity-40"></div>
+        <div className="absolute bottom-1/4 left-0 w-96 h-96 bg-gradient-to-tr from-green-50 to-transparent rounded-full opacity-30"></div>
 
+        <div className="relative z-10 max-w-7xl mx-auto px-6 lg:px-10">
+          {/* Header Section */}
+          <div className="text-center mb-0 md:mb-16 lg:mb-20">
+            <div className="inline-flex items-center justify-center w-16 h-16 bg-gradient-to-r from-[#10b981] to-[#059669] rounded-full mb-6">
+              <svg
+                className="w-8 h-8 text-white"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth={2}
+                  d="M12 4.354a4 4 0 110 5.292M15 21H3v-1a6 6 0 0112 0v1zm0 0h6v-1a6 6 0 00-9-5.197m13.5-9a2.25 2.25 0 11-4.5 0 2.25 2.25 0 014.5 0z"
+                />
+              </svg>
+            </div>
+
+            <h4 className="text-3xl md:text-5xl font-bold text-black md:mb-6 mb-2">
+              Who We <span className="text-[#10b981]">Are</span>
+            </h4>
+          </div>
+
+          {/* Main Content Grid */}
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+            {/* Left Side - Content */}
+            <div className="space-y-8">
+              {/* Main Description Card */}
+              <div className="bg-white rounded-2xl p-8 shadow-xl border border-gray-100">
+                <div className="space-y-6">
+                  <p className="text-lg text-gray-700 leading-relaxed">
+                    We are a{" "}
+                    <span className="font-semibold text-[#10b981]">
+                      lean web development software house
+                    </span>{" "}
+                    operating on a hybrid model that combines international
+                    freelance excellence with specialized local market expertise
+                    in Pakistan's SME sector.
+                  </p>
+
+                  <div className="w-16 h-1 bg-gradient-to-r from-[#10b981] to-[#059669] rounded-full"></div>
+
+                  <p className="text-lg text-gray-700 leading-relaxed">
+                    Our process-driven approach delivers{" "}
+                    <span className="font-semibold text-[#10b981]">
+                      conversion-focused, scalable solutions
+                    </span>{" "}
+                    that bridge the digitization gap for local industries while
+                    maintaining global quality standards for international
+                    clients.
+                  </p>
+                </div>
+              </div>
+
+              {/* Highlights Grid */}
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                {HomeData.highlights.map((highlight, index) => (
+                  <div
+                    key={index}
+                    className="flex items-center space-x-3 bg-white rounded-xl p-4 shadow-md border border-gray-100 hover:shadow-lg transition-all duration-300 hover:-translate-y-1"
+                  >
+                    <div
+                      className="flex-shrink-0 w-10 h-10 bg-gradient-to-br from-[#10b981] to-[#059669] rounded-lg flex items-center justify-center text-white"
+                      dangerouslySetInnerHTML={{ __html: highlight.icon }}
+                    ></div>
+                    <span className="text-sm font-medium text-gray-700">
+                      {highlight.text}
+                    </span>
+                  </div>
+                ))}
+              </div>
+            </div>
+
+            {/* Right Side - Image */}
+            <div className="relative">
+              <div className="relative">
+                {/* Decorative background shapes - Changed to green */}
+                <div className="absolute -inset-6 bg-gradient-to-r from-[#10b981] to-[#059669] rounded-3xl opacity-10 transform rotate-6"></div>
+                <div className="absolute -inset-3 bg-gradient-to-r from-[#10b981] to-[#059669] rounded-2xl opacity-15 transform -rotate-3"></div>
+
+                {/* Main image container */}
+                <div className="relative bg-white rounded-2xl p-4 shadow-2xl">
+                  <img
+                    src="/who-we-are-2.jpg"
+                    alt="Software Development Company"
+                    className="w-full h-auto rounded-xl object-cover"
+                  />
+                </div>
+
+                {/* Floating achievement badges - Changed to green */}
+                <div className="absolute -top-6 -left-6 bg-white rounded-2xl p-4 shadow-xl border border-gray-100 hidden lg:block">
+                  <div className="text-center">
+                    <div className="text-2xl font-bold text-[#10b981]">
+                      100%
+                    </div>
+                    <div className="text-xs text-gray-600 font-medium">
+                      On-Time Delivery
+                    </div>
+                  </div>
+                </div>
+
+                <div className="absolute -bottom-6 -right-6 bg-white rounded-2xl p-4 shadow-xl border border-gray-100 hidden lg:block">
+                  <div className="text-center">
+                    <div className="text-2xl font-bold text-[#10b981]">3+</div>
+                    <div className="text-xs text-gray-600 font-medium">
+                      Years Experience
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
       {/* Excellence Section */}
       <section className="relative py-20 px-4 sm:px-6 lg:px-8">
         {/* Background with geometric patterns */}
         <div className="absolute inset-0">
           {/* Base gradient background */}
-          <div className="absolute inset-0 bg-gradient-to-br from-gray-50 via-white to-gray-100"></div>
+          <div className="absolute inset-0 bg-gradient-to-br from-white to-[#10b981]"></div>
 
           {/* Geometric pattern overlay - Changed to green */}
           <div
@@ -247,12 +367,12 @@ export default function Home() {
           <div className="absolute top-1/2 left-1/4 w-8 h-8 bg-[#10b981]/15 transform rotate-45 animate-spin"></div>
         </div>
 
-        <div className="relative z-10">
+        <div className="relative z-10 ">
           <div className="max-w-[1920px] mx-auto">
             <div className="flex flex-col items-center justify-center text-center mb-16">
               {/* Badge - Changed to green */}
               <div className="inline-block mb-6">
-                <span className="px-4 py-2 bg-[#10b981]/10 text-[#10b981] text-sm font-semibold rounded-full uppercase tracking-wide">
+                <span className="inline-block bg-[#10b981] text-white px-6 py-2 rounded-full text-sm font-medium mb-4">
                   Our Excellence
                 </span>
               </div>
@@ -301,7 +421,7 @@ export default function Home() {
       </section>
 
       {/* Services Section */}
-      <div className="relative py-16 lg:py-24 bg-gradient-to-br from-gray-50 to-white overflow-hidden">
+      <div className="relative py-16 lg:py-24 bg-gradient-to-br  from-[#10b981] via-white to-white overflow-hidden">
         {/* Background Decorative Elements - Changed to green */}
         <div className="absolute top-0 right-0 w-96 h-96 bg-gradient-to-bl from-green-100 to-transparent rounded-full opacity-30 -translate-y-1/2 translate-x-1/2"></div>
         <div className="absolute bottom-0 left-0 w-80 h-80 bg-gradient-to-tr from-green-50 to-transparent rounded-full opacity-40 translate-y-1/2 -translate-x-1/2"></div>
@@ -332,9 +452,9 @@ export default function Home() {
             </div>
 
             <h3 className="text-3xl md:text-5xl font-bold text-black mb-6 leading-tight">
-              Comprehensive End-to-End
+              Process-Driven Web Solutions
               <span className="block text-[#10b981] lg:mt-3">
-                Software Development Solutions
+                For Global & Local Markets
               </span>
             </h3>
 
@@ -385,140 +505,17 @@ export default function Home() {
         </div>
       </div>
 
-      {/* Who We Are Section */}
-      <section className="relative py-16 lg:py-24 bg-gradient-to-br from-white to-gray-50 overflow-hidden">
-        {/* Background Decorative Elements - Changed to green */}
-        <div className="absolute top-1/4 right-0 w-72 h-72 bg-gradient-to-bl from-green-100 to-transparent rounded-full opacity-40"></div>
-        <div className="absolute bottom-1/4 left-0 w-96 h-96 bg-gradient-to-tr from-green-50 to-transparent rounded-full opacity-30"></div>
-
-        <div className="relative z-10 max-w-7xl mx-auto px-6 lg:px-10">
-          {/* Header Section */}
-          <div className="text-center mb-0 md:mb-16 lg:mb-20">
-            <div className="inline-flex items-center justify-center w-16 h-16 bg-gradient-to-r from-[#10b981] to-[#059669] rounded-full mb-6">
-              <svg
-                className="w-8 h-8 text-white"
-                fill="none"
-                stroke="currentColor"
-                viewBox="0 0 24 24"
-              >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth={2}
-                  d="M12 4.354a4 4 0 110 5.292M15 21H3v-1a6 6 0 0112 0v1zm0 0h6v-1a6 6 0 00-9-5.197m13.5-9a2.25 2.25 0 11-4.5 0 2.25 2.25 0 014.5 0z"
-                />
-              </svg>
-            </div>
-
-            <h4 className="text-3xl md:text-5xl font-bold text-black md:mb-6 mb-2">
-              Who We <span className="text-[#10b981]">Are</span>
-            </h4>
-          </div>
-
-          {/* Main Content Grid */}
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
-            {/* Left Side - Content */}
-            <div className="space-y-8">
-              {/* Main Description Card */}
-              <div className="bg-white rounded-2xl p-8 shadow-xl border border-gray-100">
-                <div className="space-y-6">
-                  <p className="text-lg text-gray-700 leading-relaxed">
-                    We are a{" "}
-                    <span className="font-semibold text-[#10b981]">
-                      global leader in IT software development
-                    </span>
-                    , building and managing high-performance remote
-                    engineering teams for ambitious businesses. Since day one,
-                    our focus has been on delivering innovative, scalable, and
-                    tailored digital solutions that help our clients achieve
-                    lasting success.
-                  </p>
-
-                  <div className="w-16 h-1 bg-gradient-to-r from-[#10b981] to-[#059669] rounded-full"></div>
-
-                  <p className="text-lg text-gray-700 leading-relaxed">
-                    Powered by a culture of{" "}
-                    <span className="font-semibold text-[#10b981]">
-                      excellence, innovation, and integrity
-                    </span>
-                    , we combine cutting-edge technology with deep industry
-                    expertise to deliver reliable solutions that make a
-                    measurable impact.
-                  </p>
-                </div>
-              </div>
-
-              {/* Highlights Grid */}
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-                {HomeData.highlights.map((highlight, index) => (
-                  <div
-                    key={index}
-                    className="flex items-center space-x-3 bg-white rounded-xl p-4 shadow-md border border-gray-100 hover:shadow-lg transition-all duration-300 hover:-translate-y-1"
-                  >
-                    <div
-                      className="flex-shrink-0 w-10 h-10 bg-gradient-to-br from-[#10b981] to-[#059669] rounded-lg flex items-center justify-center text-white"
-                      dangerouslySetInnerHTML={{ __html: highlight.icon }}
-                    ></div>
-                    <span className="text-sm font-medium text-gray-700">
-                      {highlight.text}
-                    </span>
-                  </div>
-                ))}
-              </div>
-            </div>
-
-            {/* Right Side - Image */}
-            <div className="relative">
-              <div className="relative">
-                {/* Decorative background shapes - Changed to green */}
-                <div className="absolute -inset-6 bg-gradient-to-r from-[#10b981] to-[#059669] rounded-3xl opacity-10 transform rotate-6"></div>
-                <div className="absolute -inset-3 bg-gradient-to-r from-[#10b981] to-[#059669] rounded-2xl opacity-15 transform -rotate-3"></div>
-
-                {/* Main image container */}
-                <div className="relative bg-white rounded-2xl p-4 shadow-2xl">
-                  <img
-                    src="/who-we-are-2.jpg"
-                    alt="Software Development Company"
-                    className="w-full h-auto rounded-xl object-cover"
-                  />
-                </div>
-
-                {/* Floating achievement badges - Changed to green */}
-                <div className="absolute -top-6 -left-6 bg-white rounded-2xl p-4 shadow-xl border border-gray-100 hidden lg:block">
-                  <div className="text-center">
-                    <div className="text-2xl font-bold text-[#10b981]">
-                      2018
-                    </div>
-                    <div className="text-xs text-gray-600 font-medium">
-                      Founded
-                    </div>
-                  </div>
-                </div>
-
-                <div className="absolute -bottom-6 -right-6 bg-white rounded-2xl p-4 shadow-xl border border-gray-100 hidden lg:block">
-                  <div className="text-center">
-                    <div className="text-2xl font-bold text-[#10b981]">
-                      5+
-                    </div>
-                    <div className="text-xs text-gray-600 font-medium">
-                      Years Experience
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
+     
 
       {/* Why Partner With Us Section */}
-      <section className="relative py-16 lg:py-24 bg-gradient-to-br from-gray-50 to-white overflow-hidden">
+      <section className="relative py-16 lg:py-24 bg-gradient-to-br from-white to-[#10b981] overflow-hidden">
         {/* Background Decorative Elements - Changed to green */}
         <div className="absolute top-0 left-0 w-96 h-96 bg-gradient-to-br from-green-100 to-transparent rounded-full opacity-30 -translate-y-1/2 -translate-x-1/2"></div>
         <div className="absolute bottom-0 right-0 w-80 h-80 bg-gradient-to-tl from-green-50 to-transparent rounded-full opacity-40 translate-y-1/2 translate-x-1/2"></div>
 
         <div className="relative z-10 max-w-7xl mx-auto px-6 lg:px-10">
           {/* Header Section */}
+
           <div className="text-center mb-16">
             <div className="inline-flex items-center justify-center w-16 h-16 bg-gradient-to-r from-[#10b981] to-[#059669] rounded-full mb-6">
               <svg
@@ -537,16 +534,16 @@ export default function Home() {
             </div>
 
             <h3 className="text-3xl md:text-5xl font-bold text-black mb-6 leading-tight max-w-4xl mx-auto">
-              Why Partner With Us for
+              Why Choose Our Process-Driven
               <span className="block text-[#10b981] lg:mt-3">
-                Cutting-Edge Software Solutions?
+                Web Development Approach?
               </span>
             </h3>
 
             <p className="text-lg xl:text-xl text-gray-600 max-w-4xl mx-auto leading-relaxed">
-              Collaborate with our team to access world-class custom software
-              development and innovative digital solutions designed to give
-              your business a competitive edge.
+              Partner with us to access professional web solutions that bridge
+              global quality standards with local market expertise, delivering
+              conversion-focused results for your business.
             </p>
           </div>
 
@@ -572,10 +569,10 @@ export default function Home() {
                 <div className="absolute -bottom-8 -right-8 bg-white rounded-2xl p-6 shadow-xl border border-gray-100 hidden lg:block">
                   <div className="text-center">
                     <div className="text-3xl font-bold text-[#10b981]">
-                      100+
+                      100%
                     </div>
                     <div className="text-sm text-gray-600 font-medium">
-                      Projects Completed
+                      On-Time Delivery
                     </div>
                   </div>
                 </div>
@@ -622,149 +619,8 @@ export default function Home() {
           </div>
         </div>
       </section>
-
-      {/* CTA Section */}
-      <section className="relative py-20 lg:py-28 bg-gradient-to-br from-black via-gray-900 to-black overflow-hidden">
-        {/* Background Decorative Elements - Changed to green */}
-        <div className="absolute top-0 left-0 w-96 h-96 bg-gradient-to-br from-[#10b981]/20 to-transparent rounded-full blur-3xl"></div>
-        <div className="absolute bottom-0 right-0 w-80 h-80 bg-gradient-to-tl from-[#10b981]/15 to-transparent rounded-full blur-3xl"></div>
-
-        {/* Geometric Background Pattern - Changed to green */}
-        <div className="absolute inset-0 opacity-5">
-          <div className="absolute top-1/4 left-1/4 w-32 h-32 border-2 border-[#10b981] rotate-45 rounded-lg"></div>
-          <div className="absolute top-3/4 right-1/4 w-24 h-24 border-2 border-[#10b981] rotate-12 rounded-lg"></div>
-          <div className="absolute bottom-1/4 left-3/4 w-20 h-20 border-2 border-[#10b981] -rotate-45 rounded-lg"></div>
-        </div>
-
-        <div className="relative z-10 max-w-7xl mx-auto px-6 lg:px-10">
-          {/* Main Content Grid */}
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
-            {/* Left Side - CTA Content */}
-            <div className="text-white space-y-8">
-              {/* Main Heading */}
-              <div className="space-y-6">
-                <div className="inline-flex items-center space-x-2 bg-[#10b981]/10 border border-[#10b981]/20 rounded-full px-4 py-2">
-                  <div className="w-2 h-2 bg-[#10b981] rounded-full animate-pulse"></div>
-                  <span className="text-[#10b981] text-sm font-medium">
-                    Let's Build Something Extraordinary
-                  </span>
-                </div>
-
-                <h4 className="text-4xl lg:text-5xl xl:text-6xl font-bold leading-tight">
-                  Looking to Create a
-                  <span className="block text-[#10b981]">
-                    Custom Software Solution?
-                  </span>
-                </h4>
-
-                <p className="text-xl text-gray-300 max-w-lg leading-relaxed">
-                  Unlock your business potential with innovative,
-                  high-performance software tailored precisely to your needs —
-                  designed to boost efficiency, scalability, and growth.
-                </p>
-              </div>
-
-              {/* Additional Features */}
-              <div className="flex flex-wrap gap-4 pt-6">
-                {[
-                  "Free Project Consultation",
-                  "Fully Customized Solutions",
-                  "24/7 Expert Support",
-                ].map((feature, index) => (
-                  <div
-                    key={index}
-                    className="flex items-center space-x-2 text-gray-300"
-                  >
-                    <div className="w-1.5 h-1.5 bg-[#10b981] rounded-full"></div>
-                    <span className="text-sm font-medium">{feature}</span>
-                  </div>
-                ))}
-              </div>
-            </div>
-
-            {/* Right Side - Stats Grid */}
-            <div className="grid sm:grid-cols-2 grid-cols-1 gap-6">
-              {HomeData.stats.map((stat, index) => (
-                <div
-                  key={index}
-                  className="group bg-gradient-to-br from-gray-800/80 to-gray-900/80 backdrop-blur-sm border border-gray-700/50 rounded-2xl p-6 hover:border-[#10b981]/50 transition-all duration-500 hover:-translate-y-2 hover:shadow-2xl hover:shadow-[#10b981]/10"
-                >
-                  <div className="space-y-4">
-                    {/* Icon - Changed to green */}
-                    <div className="flex items-center justify-center w-16 h-16 bg-gradient-to-br from-[#10b981] to-[#059669] rounded-xl shadow-lg group-hover:scale-110 transition-transform duration-300">
-                      <div
-                        className="w-8 h-8 filter invert"
-                        dangerouslySetInnerHTML={{
-                          __html: stat.fallbackIcon,
-                        }}
-                      ></div>
-                      <div className="text-white hidden">
-                        {stat.fallbackIcon}
-                      </div>
-                    </div>
-
-                    {/* Stats */}
-                    <div className="text-center">
-                      <div className="text-3xl lg:text-4xl font-bold text-white mb-2 group-hover:text-[#10b981] transition-colors duration-300">
-                        {stat.number}
-                      </div>
-                      <div className="text-gray-300 font-medium text-sm lg:text-base">
-                        {stat.label}
-                      </div>
-                    </div>
-                  </div>
-
-                  {/* Bottom accent line - Changed to green */}
-                  <div className="mt-4 w-0 h-0.5 bg-gradient-to-r from-[#10b981] to-[#059669] group-hover:w-full transition-all duration-500 rounded-full"></div>
-                </div>
-              ))}
-            </div>
-          </div>
-
-          {/* Bottom Testimonial/Trust Section */}
-          <div className="mt-20 pt-12 border-t border-gray-700/50 text-center">
-            <div className="flex flex-col md:flex-row items-center justify-center space-y-4 md:space-y-0 md:space-x-8 text-gray-300">
-              <div className="flex items-center space-x-2">
-                <div className="flex -space-x-2">
-                  {[1, 2, 3, 4, 5].map((_, i) => (
-                    <div
-                      key={i}
-                      className="w-8 h-8 bg-[#10b981] rounded-full border-2 border-gray-900 flex items-center justify-center"
-                    >
-                      <span className="text-xs font-bold text-white">★</span>
-                    </div>
-                  ))}
-                </div>
-                <span className="text-sm font-medium">
-                  Trusted by Global Industry Leaders
-                </span>
-              </div>
-
-              <div className="hidden md:block w-px h-6 bg-gray-600"></div>
-
-              <div className="flex items-center space-x-2">
-                <svg
-                  className="w-5 h-5 text-[#10b981]"
-                  fill="currentColor"
-                  viewBox="0 0 20 20"
-                >
-                  <path
-                    fillRule="evenodd"
-                    d="M2.166 4.999A11.954 11.954 0 0010 1.944 11.954 11.954 0 0017.834 5c.11.65.166 1.32.166 2.001 0 5.225-3.34 9.67-8 11.317C5.34 16.67 2 12.225 2 7c0-.682.057-1.35.166-2.001zm11.541 3.708a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
-                    clipRule="evenodd"
-                  />
-                </svg>
-                <span className="text-sm font-medium">
-                  100% Secure & Confidential Development
-                </span>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Process Section */}
-      <div className="relative max-md:max-w-7xl lg:px-20 px-6 md:py-20 xl:py-28 py-12 bg-white">
+ {/* Process Section */}
+      <div className="relative max-md:max-w-7xl lg:px-20 px-6 md:py-20 xl:py-28 py-12 bg-gradient-to-br from-[#10b981] via-white to-white  overflow-hidden">
         <div className="relative max-w-7xl mx-auto">
           {/* Header Section */}
           <div className="text-center mb-16">
@@ -827,22 +683,24 @@ export default function Home() {
           </div>
         </div>
       </div>
-
       {/* Development Process Section */}
-      <div className="max-w-7xl mx-auto lg:px-10 px-6 md:py-20 py-12 bg-white">
+      <section className="bg-gradient-to-br from-white to-[#10b981] overflow-hidden">
         {/* Section Header */}
+        <div className="relative z-10 container mx-auto px-4 sm:px-6 lg:px-8 py-16 md:py-20 lg:py-24">
         <div className="text-center mb-16">
           <div className="inline-block bg-[#10b981] text-white px-6 py-2 rounded-full text-sm font-medium mb-4">
             Our Workflow
           </div>
           <h2 className="xl:text-5xl lg:text-4xl md:text-3xl text-2xl font-bold text-black mb-4">
-            Our Development Journey
+            {HomeData.developmentProcess.title ||
+              "Our Process-Driven Development"}
           </h2>
-          <div className="w-24 h-1 bg-[#10b981] mx-auto mb-6"></div>
+
           <p className="text-gray-600 max-w-2xl mx-auto text-lg">
-            A clear, proven process that transforms ideas into impactful
-            solutions—every step aligned with your vision and business goals.
+            {HomeData.developmentProcess.description ||
+              "A structured, milestone-based approach that combines global quality standards with local market expertise to deliver conversion-focused web solutions."}
           </p>
+          <div className="w-24 h-1 bg-[#10b981] mx-auto mb-6"></div>
         </div>
 
         {/* Process Grid */}
@@ -862,12 +720,13 @@ export default function Home() {
                         src={process.image}
                         className="w-8 h-8"
                         alt="process-image"
+                        style={{ filter: "revert-1" }}
                       />
                     </div>
                   </div>
 
                   {/* Step Number */}
-                  <div className="absolute top-4 right-4 w-8 h-8 bg-black text-white rounded-full flex items-center justify-center text-sm font-bold">
+                  <div className="absolute top-4 right-4 w-8 h-8 bg-[#10b981] text-white rounded-full flex items-center justify-center text-sm font-bold">
                     0{index + 1}
                   </div>
 
@@ -890,10 +749,185 @@ export default function Home() {
             );
           })}
         </div>
-      </div>
+        </div>
+      </section>
+      {/* CTA Section */}
+
+      <section className="relative py-20 lg:py-28 bg-gradient-to-br from-black via-gray-900 to-black overflow-hidden">
+        {/* Background Decorative Elements - Changed to green */}
+        <div className="absolute top-0 left-0 w-96 h-96 bg-gradient-to-br from-[#10b981]/20 to-transparent rounded-full blur-3xl"></div>
+        <div className="absolute bottom-0 right-0 w-80 h-80 bg-gradient-to-tl from-[#10b981]/15 to-transparent rounded-full blur-3xl"></div>
+
+        {/* Geometric Background Pattern - Changed to green */}
+        <div className="absolute inset-0 opacity-5">
+          <div className="absolute top-1/4 left-1/4 w-32 h-32 border-2 border-[#10b981] rotate-45 rounded-lg"></div>
+          <div className="absolute top-3/4 right-1/4 w-24 h-24 border-2 border-[#10b981] rotate-12 rounded-lg"></div>
+          <div className="absolute bottom-1/4 left-3/4 w-20 h-20 border-2 border-[#10b981] -rotate-45 rounded-lg"></div>
+        </div>
+
+        <div className="relative z-10 max-w-7xl mx-auto px-6 lg:px-10">
+          {/* Main Content Grid */}
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+            {/* Left Side - CTA Content */}
+            <div className="text-white space-y-8">
+              {/* Main Heading */}
+              <div className="space-y-6">
+                <div className="inline-flex items-center space-x-2 bg-[#10b981]/10 border border-[#10b981]/20 rounded-full px-4 py-2">
+                  <div className="w-2 h-2 bg-[#10b981] rounded-full animate-pulse"></div>
+                  <span className="text-[#10b981] text-sm font-medium">
+                    Ready to Transform Your Digital Presence?
+                  </span>
+                </div>
+
+                <h4 className="text-4xl lg:text-5xl xl:text-6xl font-bold leading-tight">
+                  Need a Conversion-Focused
+                  <span className="block text-[#10b981]">Web Solution?</span>
+                </h4>
+
+                <p className="text-xl text-gray-300 max-w-lg leading-relaxed">
+                  Get professional, process-driven web development that bridges
+                  global quality with local expertise — designed to generate
+                  leads and scale with your business growth.
+                </p>
+              </div>
+
+              {/* Additional Features */}
+              <div className="flex flex-wrap gap-4 pt-6">
+                {[
+                  "Free Project Consultation & Quote",
+                  "Milestone-Based Development Process",
+                  "Post-Launch Support & Maintenance",
+                ].map((feature, index) => (
+                  <div
+                    key={index}
+                    className="flex items-center space-x-2 text-gray-300"
+                  >
+                    <div className="w-1.5 h-1.5 bg-[#10b981] rounded-full"></div>
+                    <span className="text-sm font-medium">{feature}</span>
+                  </div>
+                ))}
+              </div>
+
+              {/* CTA Buttons */}
+              <div className="flex flex-col sm:flex-row gap-4 pt-6">
+                <button className="bg-[#10b981] hover:bg-[#059669] text-white font-semibold px-8 py-4 rounded-xl transition-all duration-300 transform hover:-translate-y-1 hover:shadow-2xl hover:shadow-[#10b981]/25">
+                  Start Your Project Today
+                </button>
+                <button className="border border-gray-600 hover:border-[#10b981] text-gray-300 hover:text-white font-semibold px-8 py-4 rounded-xl transition-all duration-300">
+                  View Our Portfolio
+                </button>
+              </div>
+            </div>
+
+            {/* Right Side - Stats Grid */}
+            <div className="grid sm:grid-cols-2 grid-cols-1 gap-6">
+              {[
+                {
+                  number: "100%",
+                  label: "On-Time Project Delivery",
+                  fallbackIcon:
+                    "<svg xmlns='http://www.w3.org/2000/svg' class='w-6 h-6' fill='none' stroke='currentColor' viewBox='0 0 24 24'><path stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z'/></svg>",
+                },
+                {
+                  number: "50+",
+                  label: "Websites & Apps Delivered",
+                  fallbackIcon:
+                    "<svg xmlns='http://www.w3.org/2000/svg' class='w-6 h-6' fill='none' stroke='currentColor' viewBox='0 0 24 24'><path stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4'/></svg>",
+                },
+                {
+                  number: "30+",
+                  label: "Local Businesses Transformed",
+                  fallbackIcon:
+                    "<svg xmlns='http://www.w3.org/2000/svg' class='w-6 h-6' fill='none' stroke='currentColor' viewBox='0 0 24 24'><path stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z'/><path stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M15 11a3 3 0 11-6 0 3 3 0 016 0z'/></svg>",
+                },
+                {
+                  number: "24/7",
+                  label: "Managed Support Available",
+                  fallbackIcon:
+                    "<svg xmlns='http://www.w3.org/2000/svg' class='w-6 h-6' fill='none' stroke='currentColor' viewBox='0 0 24 24'><path stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M18.364 5.636l-3.536 3.536m0 5.656l3.536 3.536M9.172 9.172L5.636 5.636m3.536 9.192L5.636 18.364M21 12a9 9 0 11-18 0 9 9 0 0118 0z'/></svg>",
+                },
+              ].map((stat, index) => (
+                <div
+                  key={index}
+                  className="group bg-gradient-to-br from-gray-800/80 to-gray-900/80 backdrop-blur-sm border border-gray-700/50 rounded-2xl p-6 hover:border-[#10b981]/50 transition-all duration-500 hover:-translate-y-2 hover:shadow-2xl hover:shadow-[#10b981]/10"
+                >
+                  <div className="space-y-4">
+                    {/* Icon - Changed to green */}
+                    <div className="flex items-center justify-center w-16 h-16 bg-gradient-to-br from-[#10b981] to-[#059669] rounded-xl shadow-lg group-hover:scale-110 transition-transform duration-300 align-middle">
+                      <div
+                        className="w-8 h-8 filter invert"
+                        dangerouslySetInnerHTML={{
+                          __html: stat.fallbackIcon,
+                        }}
+                      ></div>
+                    </div>
+
+                    {/* Stats */}
+                    <div className="text-center">
+                      <div className="text-3xl lg:text-4xl font-bold text-white mb-2 group-hover:text-[#10b981] transition-colors duration-300">
+                        {stat.number}
+                      </div>
+                      <div className="text-gray-300 font-medium text-sm lg:text-base">
+                        {stat.label}
+                      </div>
+                    </div>
+                  </div>
+
+                  {/* Bottom accent line - Changed to green */}
+                  <div className="mt-4 w-0 h-0.5 bg-gradient-to-r from-[#10b981] to-[#059669] group-hover:w-full transition-all duration-500 rounded-full"></div>
+                </div>
+              ))}
+            </div>
+          </div>
+
+          {/* Bottom Testimonial/Trust Section */}
+          <div className="mt-20 pt-12 border-t border-gray-700/50 text-center">
+            <div className="flex flex-col md:flex-row items-center justify-center space-y-4 md:space-y-0 md:space-x-8 text-gray-300">
+              <div className="flex items-center space-x-2">
+                <div className="flex -space-x-2">
+                  {[1, 2, 3, 4, 5].map((_, i) => (
+                    <div
+                      key={i}
+                      className="w-8 h-8 bg-[#10b981] rounded-full border-2 border-gray-900 flex items-center justify-center"
+                    >
+                      <span className="text-xs font-bold text-white">★</span>
+                    </div>
+                  ))}
+                </div>
+                <span className="text-sm font-medium">
+                  Trusted by Local SMEs & International Clients
+                </span>
+              </div>
+
+              <div className="hidden md:block w-px h-6 bg-gray-600"></div>
+
+              <div className="flex items-center space-x-2">
+                <svg
+                  className="w-5 h-5 text-[#10b981]"
+                  fill="currentColor"
+                  viewBox="0 0 20 20"
+                >
+                  <path
+                    fillRule="evenodd"
+                    d="M2.166 4.999A11.954 11.954 0 0010 1.944 11.954 11.954 0 0017.834 5c.11.65.166 1.32.166 2.001 0 5.225-3.34 9.67-8 11.317C5.34 16.67 2 12.225 2 7c0-.682.057-1.35.166-2.001zm11.541 3.708a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                    clipRule="evenodd"
+                  />
+                </svg>
+                <span className="text-sm font-medium">
+                  Process-Driven & Milestone-Based Development
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+     
+
+      
 
       {/* FAQ Section */}
-      <section className="relative bg-gradient-to-b from-white via-gray-50 to-white overflow-hidden">
+      <section className="relative bg-gradient-to-b  bg-gradient-to-br from-white via-white to-[#10b981] overflow-hidden">
         <div className="relative z-10 container mx-auto px-4 sm:px-6 lg:px-8 py-16 md:py-20 lg:py-24">
           {/* Header Section */}
           <div className="text-center mb-16 md:mb-20">
@@ -914,10 +948,10 @@ export default function Home() {
 
             {/* Description */}
             <p className="text-gray-600 text-lg md:text-xl max-w-2xl mx-auto leading-relaxed">
-              Explore answers to our most common queries and learn more about
-              our services, processes, and capabilities. Can't find the
-              information you need? Our team is just a message away and ready
-              to assist you.
+              Find answers about our process-driven web development, niche
+              expertise, and hybrid service model. Can't find what you're
+              looking for? Contact us for personalized consultation about your
+              project needs.
             </p>
 
             {/* Decorative line */}

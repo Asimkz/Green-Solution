@@ -86,14 +86,14 @@ export default function HomeNavigationContainer() {
 
   const linkClasses = (path: string, currentPath: string) =>
     `relative px-2 py-1 text-white transition-all duration-300 
-   hover:text-[#F26522] 
-   after:absolute after:left-0 after:bottom-0 after:h-[2px] after:w-0 after:bg-[#F26522] after:transition-all after:duration-300 
+   hover:text-[#10b981] 
+   after:absolute after:left-0 after:bottom-0 after:h-[2px] after:w-0 after:bg-[#10b981] after:transition-all after:duration-300 
    hover:after:w-full 
    ${currentPath === path ? "text-[#F26522] after:w-full" : ""}`;
 
   return (
     <div className="navbar flex flex-col items-center   lg:p-0   w-full  max-md:max-w-full flex-grow relative top-0 z-20 xl:bg-transparent xl:h-auto h-[72px]">
-      <div className="flex gap-5 justify-between items-center px-8 py-3.5 w-full border border-solid shadow-md backdrop-blur-[36px] bg-black bg-opacity-20 border-white border-opacity-10  max-md:flex-wrap max-md:px-5 max-md:max-w-full">
+      <div className="flex gap-5 justify-between items-center px-8 py-3.5 w-full border border-solid shadow-md backdrop-blur-[36px] bg-black  border-white border-opacity-10  max-md:flex-wrap max-md:px-5 max-md:max-w-full">
         <span className="relative" style={{ zIndex: 1000 }}>
           <Link href={`/`} className=" my-auto">
             <h1 className="text-white text-2xl">
@@ -742,18 +742,18 @@ export default function HomeNavigationContainer() {
               </Link>
             </li> */}
 
-            <li className="flex flex-row items-center w-full px-4 py-2 mt-2 md:w-auto md:inline md:mt-0">
+            {/* <li className="flex flex-row items-center w-full px-4 py-2 mt-2 md:w-auto md:inline md:mt-0">
               <Link
                 href="/technologies"
                 className={linkClasses("/technologies", pathname)}
               >
                 Technologies
               </Link>
-            </li>
+            </li> */}
 
             <li className="flex flex-row items-center w-full px-4 py-2 mt-2 md:w-auto md:inline md:mt-0">
-              <Link href="/career" className={linkClasses("/career", pathname)}>
-                Career
+              <Link href="/contact-us" className={linkClasses("/contact-us", pathname)}>
+                Contact Us
               </Link>
             </li>
           </ul>
@@ -1019,11 +1019,11 @@ export default function HomeNavigationContainer() {
                         Career
                       </Link>
                     </li> */}
-                    <li className="border-b border-gray-200 border-opacity-50 py-4">
+                    {/* <li className="border-b border-gray-200 border-opacity-50 py-4">
                       <Link href="/technologies" onClick={handleToggleMenuIcon}>
                         Technologies
                       </Link>
-                    </li>
+                    </li> */}
                   </ul>
                 </div>
               )}

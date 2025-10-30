@@ -29,7 +29,7 @@ const HomePageSlider = () => {
         if (!slide.highlightWord) {
           return (
             <SwiperSlide key={index}>
-              <div className="flex flex-col items-center justify-center text-center px-4 py-4">
+              <div className="flex flex-col items-start justify-start text-start px-4 py-4">
                 <h2
                   className="lg:text-5xl md:text-4xl text-3xl font-bold md:mb-6 mb-3 leading-tight text-white"
                   style={{

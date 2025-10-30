@@ -21,20 +21,20 @@ const DeferredScrollToTop = dynamic(() => import("./components/DeferredScrollToT
 
 export const metadata: Metadata = {
   // metadataBase: new URL(""), // Fixed URL with proper domain
-  title: "Software Development Company in the USA | GreenSolution",
+  title: "GreenSolution Software Development Company",
   description: "GreenSolution is a leading software development company specialized in custom software development services. Schedule a Call & build with experts.",
   keywords: ["GreenSolution", "software development company", "software development services"],
   alternates: { canonical: "" },
   openGraph: {
     type: "website",
     url: "",
-    title: "Software Development Company in the USA | GreenSolution",
+    title: "GreenSolution Software Development Company",
     description: "GreenSolution is a leading software development company specialized in custom software development services. Schedule a Call & build with experts.",
     images: [{ url: "https://www.innovasynx.com/thankyou.jpg", width: 1200, height: 630, alt: "innovaSynx Logo" }],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Software Development Company in the USA | GreenSolution",
+    title: "GreenSolution Software Development Company",
     description: "GreenSolution is a leading software development company specialized in custom software development services. Schedule a Call & build with experts.",
     images: ["https://www.innovasynx.com/thankyou.jpg"],
   },
@@ -78,7 +78,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           {/* ✅ Page Content */}
           <div className="flex flex-col bg-white relative">
             <HomeNavigationContainer />
-            <CookieConsent />
+            {/* <CookieConsent /> */}
             {children}
             {/* <Suspense fallback={null}>
               <DeferredFormDisplay />
