@@ -6,7 +6,7 @@ const Faqs = dynamic(() => import("./components/Faqs"), {
   suspense: true,
 });
 // import ScrollAnimation from "./components/ScrollAnimation";
-import CoreExpertise from "./components/Expertise-home";
+// import CoreExpertise from "./components/Expertise-home";
 // import HomePageForm from "./components/Homepage-form";
 // import CaseStudiesHome from "./components/CaseStudies-Home";
 // import TechnologiesSection from "./components/HomePage-Tech";
@@ -810,12 +810,13 @@ export default function Home() {
 
               {/* CTA Buttons */}
               <div className="flex flex-col sm:flex-row gap-4 pt-6">
-                <button className="bg-[#10b981] hover:bg-[#059669] text-white font-semibold px-8 py-4 rounded-xl transition-all duration-300 transform hover:-translate-y-1 hover:shadow-2xl hover:shadow-[#10b981]/25">
-                  Start Your Project Today
-                </button>
-                <button className="border border-gray-600 hover:border-[#10b981] text-gray-300 hover:text-white font-semibold px-8 py-4 rounded-xl transition-all duration-300">
+                <a   href="https://wa.me/923321380511" 
+                    target="_blank"  className="bg-[#10b981] hover:bg-[#059669] text-white font-semibold px-8 py-4 rounded-xl transition-all duration-300 transform hover:-translate-y-1 hover:shadow-2xl hover:shadow-[#10b981]/25">
+                  Start Your Project Today Contact Us
+                </a>
+                {/* <button className="border border-gray-600 hover:border-[#10b981] text-gray-300 hover:text-white font-semibold px-8 py-4 rounded-xl transition-all duration-300">
                   View Our Portfolio
-                </button>
+                </button> */}
               </div>
             </div>
 
