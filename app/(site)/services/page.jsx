@@ -4,7 +4,7 @@ import servicesData from "../../data/ServicesData.json";
 import { FaLightbulb, FaUsers, FaCogs, FaRocket } from "react-icons/fa";
 
 export const metadata = {
-  title: "Web Development Company in Pakistan | GreenSolution",
+  title: "Software Development Company | Green Solution",
   description:
     "GreenSolution is a process-driven web development company specializing in custom solutions for SMEs and international clients. Build scalable digital products with experts.",
   keywords: [
@@ -23,13 +23,15 @@ const Services = async () => {
     <div>
       {/* Hero Section */}
       <div className="relative w-full min-h-screen flex items-center justify-center overflow-hidden">
-        <img
+        <Image
           loading="lazy"
           className="absolute top-0 left-0 object-cover inset-0 size-full"
-          src="/services-back.jpg"
+              width={600}
+             height={400}
+          src="/services-back2.jpg"
           alt="Services"
         />
-        <div className="absolute top-0 left-0 w-full h-full bg-[#000000] opacity-70"></div>
+        <div className="absolute top-0 left-0 w-full h-full bg-[#000000] opacity-80"></div>
 
         <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
           <ScrollAnimation className="text-center">
@@ -236,7 +238,7 @@ const Services = async () => {
                 <div className="relative">
                   <div className="relative w-96 h-96 lg:w-[500px] lg:h-[500px]">
                     <Image
-                      src="/success-image.png"
+                      src="/success-image2.png"
                       alt="Process-Driven Development"
                       width={600}
                       height={600}
@@ -262,7 +264,7 @@ const Services = async () => {
               </h2>
               <p className="text-xl text-[#FFFFFF]/80 max-w-4xl mx-auto leading-relaxed">
                 Leveraging cutting-edge frameworks and platforms to build scalable, 
-                high-performance solutions for today's digital landscape
+                high-performance solutions for today&apos;s digital landscape
               </p>
             </div>
 

@@ -30,13 +30,18 @@ export const metadata: Metadata = {
     url: "",
     title: "GreenSolution Software Development Company",
     description: "GreenSolution is a leading software development company specialized in custom software development services. Schedule a Call & build with experts.",
-    images: [{ url: "https://www.innovasynx.com/thankyou.jpg", width: 1200, height: 630, alt: "innovaSynx Logo" }],
+    images: [{ 
+      url: "/Green-Solution-logo-small.png", 
+      width: 1200, 
+      height: 630, 
+      alt: "GreenSolution Logo" 
+    }],
   },
   twitter: {
     card: "summary_large_image",
     title: "GreenSolution Software Development Company",
     description: "GreenSolution is a leading software development company specialized in custom software development services. Schedule a Call & build with experts.",
-    images: ["https://www.innovasynx.com/thankyou.jpg"],
+    images: [""],
   },
 };
 
@@ -44,9 +49,8 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html lang="en">
       <head>
-        {/* <link rel="icon" href="/favicon.ico" sizes="any" />
-        <link rel="icon" type="image/png" href="/favicon-32X32.png" sizes="32x32" />
-        <link rel="apple-touch-icon" href="/apple-touch-icon.png" /> */}
+        <link rel="icon" href="/Green-Solution-logo-small.png" type="image/png" />
+  <link rel="apple-touch-icon" href="/Green-Solution-logo-small.png" />
 
         {/* ✅ JSON-LD business info */}
         <Script id="ld-business" type="application/ld+json" strategy="lazyOnload">
@@ -54,7 +58,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             "@context": "https://schema.org",
             "@type": "LocalBusiness",
             "name": "GreenSolution",
-            "image": "https://www.innovasynx.com/logo.png",
+            "image": "/Green-Solution-logo-small.png",
             "url": "",
             "telephone": "",
             "address": {

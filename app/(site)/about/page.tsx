@@ -1,4 +1,5 @@
 import serviceSummaryData from "./aboutdata.json";
+import Image from "next/image";
 
 interface SeoMetadata {
   title?: string;
@@ -89,7 +90,7 @@ export async function generateMetadata() {
   const data = serviceSummaryData as ServiceSummaryData;
 
   const defaultTitle =
-    "GreenSolution - Process-Driven Web Development Company in Pakistan";
+    "Software Development Company | Green Solution";
   const defaultDescription =
     "Professional web development solutions for SMEs and international clients. Custom development, niche solutions, and recurring services.";
   const defaultKeywords = "GreenSolution, web development Pakistan, SME digital solutions, custom web development";
@@ -163,14 +164,16 @@ export default async function ServiceSummary() {
       {/* Hero Section */}
       <div className="flex overflow-hidden relative flex-col pb-12 w-full font-light text-white lg:min-h-screen max-md:max-w-full">
         {data.heroImage && (
-          <img
+          <Image
             loading="lazy"
+            width={1920}
+            height={1080}
             className="top-0 left-0 object-cover absolute inset-0 size-full"
-            src="/about-banner.jpg"
+            src="/about-banner2.jpg"
             alt="GreenSolution - Web Development Company"
           />
         )}
-        <div className="absolute top-0 left-0 w-full h-full bg-[#020C16] opacity-65"></div>
+        <div className="absolute top-0 left-0 w-full h-full bg-[#020C16] opacity-85"></div>
         <div className="flex relative flex-col justify-center items-center lg:px-20 px-5 lg:pt-12 lg:pb-0 pt-48 pb-36 w-full max-md:px-5 max-md:max-w-full flex-grow min-h-screen">
           <div>
             <h1 className="lg:text-4xl text-2xl font-bold text-center capitalize max-lg:mt-0 lg:w-8/12 mx-auto">
@@ -290,10 +293,12 @@ export default async function ServiceSummary() {
           <div className="w-full md:w-1/2 mt-8 md:mt-0 md:pl-8 md:flex md:justify-center">
             <div className="bg-gray-200 rounded-lg overflow-hidden">
               {data.bannerFiveImage && (
-                <img
+                <Image
                   loading="lazy"
+                  width={600}
+                  height={400}
                   className="max-w-[100%] h-auto"
-                  src="/seacrhing2.jpeg"
+                  src="/seacrhing3.png"
                   alt="GreenSolution Team"
                 />
               )}
@@ -322,10 +327,12 @@ export default async function ServiceSummary() {
                     {tool.images?.map(
                       (imagePath: string, logoIndex: number) => (
                         <div key={logoIndex}>
-                          <img
+                          <Image
                             loading="lazy"
                             src={imagePath}
                             alt={tool.heading}
+                            width={80}
+                            height={80}
                             className="h-20 w-auto object-contain"
                           />
                         </div>

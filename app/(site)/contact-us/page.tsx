@@ -1,14 +1,14 @@
 "use client";
-
+import Image from "next/image";
 import ScrollAnimation from "../components/ScrollAnimation";
 
 const ContactUs: React.FC = () => {
   const handleCall = () => {
-    window.open('tel:+923321380511');
+    window.open('tel:+923221380511');
   };
 
   const handleWhatsApp = () => {
-    window.open('https://wa.me/923321380511');
+    window.open('https://wa.me/+923221380511');
   };
 
   const handleEmail = () => {
@@ -21,19 +21,21 @@ const ContactUs: React.FC = () => {
       <ScrollAnimation>
         <div className="relative overflow-hidden min-h-screen flex items-center bg-center bg-cover">
           <div className="absolute inset-0">
-            <img
+             <Image
+             width={600}
+             height={400}
               className="object-cover w-full h-full"
-              src="/contact-bg.jpg"
+              src="/contact-bg2.jpg"
               alt="contact-background"
               loading="eager"
             />
-            <div className="absolute inset-0 bg-[#000000] opacity-60"></div>
+            <div className="absolute inset-0 bg-[#000000] opacity-80"></div>
           </div>
 
           <div className="relative z-10 container mx-auto px-6 lg:px-20 text-center">
             <div className="max-w-4xl mx-auto">
               <h1 className="text-5xl lg:text-7xl font-bold text-white mb-6">
-                Let's Build{" "}
+                Let&apos;s Build
                 <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#10b981] to-green-400">
                   Together
                 </span>
@@ -56,7 +58,7 @@ const ContactUs: React.FC = () => {
                 <span className="text-[#10b981]"> Channels</span>
               </h2>
               <p className="text-lg text-gray-700 leading-relaxed mb-12">
-                Choose your preferred way to connect with us. We're always available to discuss your project requirements.
+                Choose your preferred way to connect with us. We&apos;re always available to discuss your project requirements.
               </p>
 
               {/* Contact Options */}
@@ -74,7 +76,7 @@ const ContactUs: React.FC = () => {
                   </div>
                   <h3 className="text-2xl font-bold text-black mb-4">WhatsApp</h3>
                   <p className="text-gray-600 mb-4">Quick chat & file sharing</p>
-                  <div className="text-[#10b981] font-semibold text-lg">+92 332 1380511</div>
+                  <div className="text-[#10b981] font-semibold text-lg">+923221380511</div>
                   <p className="text-sm text-gray-500 mt-2">Tap to message on WhatsApp</p>
                 </div>
 

@@ -2,6 +2,7 @@
 import dynamic from "next/dynamic";
 import React, { Suspense } from "react";
 import HomePageSlider from "./components/HomePageSlider";
+import Image from "next/image";
 const Faqs = dynamic(() => import("./components/Faqs"), {
   suspense: true,
 });
@@ -34,10 +35,12 @@ const StatItem = ({
     <div className="flex justify-center mb-6">
       <div className="relative p-4 rounded-full bg-gradient-to-br from-[#10b981] to-[#10b981] group-hover:scale-110 transition-transform duration-300">
         <div className="absolute inset-0 rounded-full bg-white opacity-20 group-hover:opacity-30 transition-opacity duration-300"></div>
-        <img
+        <Image
           loading="lazy"
           src={imageSrc}
           alt={alt}
+          width={64}
+          height={64}
           className="relative z-10 w-16 h-16 filter brightness-0 invert"
         />
 
@@ -223,7 +226,8 @@ export default function Home() {
           </div>
         </div>
       </div>
- {/* Who We Are Section */}
+
+      {/* Who We Are Section */}
       <section className="relative py-16 lg:py-24 bg-gradient-to-br from-[#10b981] via-white to-white overflow-hidden">
         {/* Background Decorative Elements - Changed to green */}
         <div className="absolute top-1/4 right-0 w-72 h-72 bg-gradient-to-bl from-green-100 to-transparent rounded-full opacity-40"></div>
@@ -267,7 +271,7 @@ export default function Home() {
                     </span>{" "}
                     operating on a hybrid model that combines international
                     freelance excellence with specialized local market expertise
-                    in Pakistan's SME sector.
+                    in Pakistan&apos;s SME sector.
                   </p>
 
                   <div className="w-16 h-1 bg-gradient-to-r from-[#10b981] to-[#059669] rounded-full"></div>
@@ -312,9 +316,11 @@ export default function Home() {
 
                 {/* Main image container */}
                 <div className="relative bg-white rounded-2xl p-4 shadow-2xl">
-                  <img
-                    src="/who-we-are-2.jpg"
+                  <Image
+                    src="/who-we-are-222.png"
                     alt="Software Development Company"
+                    width={600}
+                    height={400}
                     className="w-full h-auto rounded-xl object-cover"
                   />
                 </div>
@@ -344,6 +350,7 @@ export default function Home() {
           </div>
         </div>
       </section>
+
       {/* Excellence Section */}
       <section className="relative py-20 px-4 sm:px-6 lg:px-8">
         {/* Background with geometric patterns */}
@@ -477,9 +484,11 @@ export default function Home() {
                 <div className="flex md:flex-row flex-col items-start md:space-x-6 max-[768px]:gap-3">
                   <div className="flex-shrink-0 relative">
                     <div className="w-20 h-20 bg-gradient-to-br from-[#10b981] to-[#059669] rounded-2xl flex items-center justify-center shadow-lg">
-                      <img
+                      <Image
                         src={service.icon}
                         alt={service.alt}
+                        width={40}
+                        height={40}
                         className="w-10 h-10 filter brightness-0 invert"
                       />
                     </div>
@@ -504,8 +513,6 @@ export default function Home() {
           </div>
         </div>
       </div>
-
-     
 
       {/* Why Partner With Us Section */}
       <section className="relative py-16 lg:py-24 bg-gradient-to-br from-white to-[#10b981] overflow-hidden">
@@ -558,9 +565,11 @@ export default function Home() {
 
                 {/* Main image container */}
                 <div className="relative bg-white rounded-2xl p-4 shadow-2xl">
-                  <img
-                    src="/choose-us-main.png"
+                  <Image
+                    src="/choose-us-main2.png"
                     alt="Software Development Services"
+                    width={600}
+                    height={400}
                     className="w-full rounded-xl"
                   />
                 </div>
@@ -619,7 +628,8 @@ export default function Home() {
           </div>
         </div>
       </section>
- {/* Process Section */}
+
+      {/* Process Section */}
       <div className="relative max-md:max-w-7xl lg:px-20 px-6 md:py-20 xl:py-28 py-12 bg-gradient-to-br from-[#10b981] via-white to-white  overflow-hidden">
         <div className="relative max-w-7xl mx-auto">
           {/* Header Section */}
@@ -672,8 +682,10 @@ export default function Home() {
             {/* Image Column */}
             <div className="lg:order-2 order-1 relative">
               <div className="relative">
-                <img
+                <Image
                   src={HomeData.process.processImage}
+                  width={600}
+                  height={400}
                   className="w-full h-auto object-cover rounded-xl"
                   alt="Green Solution Development Methodology Process"
                   loading="lazy"
@@ -683,76 +695,79 @@ export default function Home() {
           </div>
         </div>
       </div>
+
       {/* Development Process Section */}
       <section className="bg-gradient-to-br from-white to-[#10b981] overflow-hidden">
         {/* Section Header */}
         <div className="relative z-10 container mx-auto px-4 sm:px-6 lg:px-8 py-16 md:py-20 lg:py-24">
-        <div className="text-center mb-16">
-          <div className="inline-block bg-[#10b981] text-white px-6 py-2 rounded-full text-sm font-medium mb-4">
-            Our Workflow
+          <div className="text-center mb-16">
+            <div className="inline-block bg-[#10b981] text-white px-6 py-2 rounded-full text-sm font-medium mb-4">
+              Our Workflow
+            </div>
+            <h2 className="xl:text-5xl lg:text-4xl md:text-3xl text-2xl font-bold text-black mb-4">
+              {HomeData.developmentProcess.title ||
+                "Our Process-Driven Development"}
+            </h2>
+
+            <p className="text-gray-600 max-w-2xl mx-auto text-lg">
+              {HomeData.developmentProcess.description ||
+                "A structured, milestone-based approach that combines global quality standards with local market expertise to deliver conversion-focused web solutions."}
+            </p>
+            <div className="w-24 h-1 bg-[#10b981] mx-auto mb-6"></div>
           </div>
-          <h2 className="xl:text-5xl lg:text-4xl md:text-3xl text-2xl font-bold text-black mb-4">
-            {HomeData.developmentProcess.title ||
-              "Our Process-Driven Development"}
-          </h2>
 
-          <p className="text-gray-600 max-w-2xl mx-auto text-lg">
-            {HomeData.developmentProcess.description ||
-              "A structured, milestone-based approach that combines global quality standards with local market expertise to deliver conversion-focused web solutions."}
-          </p>
-          <div className="w-24 h-1 bg-[#10b981] mx-auto mb-6"></div>
-        </div>
+          {/* Process Grid */}
+          <div className="grid xl:grid-cols-3 grid-cols-1 md:grid-cols-2 gap-8 lg:gap-10">
+            {HomeData.developmentProcess.processes.map((process, index) => {
+              return (
+                <div key={index} className="group relative">
+                  <div className="bg-white border-2 border-gray-100 rounded-2xl p-8 h-full hover:border-[#10b981] transition-all duration-300 hover:shadow-xl relative overflow-hidden">
+                    {/* Background decoration - Changed to green */}
+                    <div className="absolute top-0 right-0 w-20 h-20 bg-[#10b981] opacity-5 rounded-full transform translate-x-10 -translate-y-10"></div>
 
-        {/* Process Grid */}
-        <div className="grid xl:grid-cols-3 grid-cols-1 md:grid-cols-2 gap-8 lg:gap-10">
-          {HomeData.developmentProcess.processes.map((process, index) => {
-            return (
-              <div key={index} className="group relative">
-                <div className="bg-white border-2 border-gray-100 rounded-2xl p-8 h-full hover:border-[#10b981] transition-all duration-300 hover:shadow-xl relative overflow-hidden">
-                  {/* Background decoration - Changed to green */}
-                  <div className="absolute top-0 right-0 w-20 h-20 bg-[#10b981] opacity-5 rounded-full transform translate-x-10 -translate-y-10"></div>
+                    {/* Icon */}
+                    <div className="relative z-10 mb-6">
+                      <div className="w-16 h-16 bg-[#10b981] rounded-full flex items-center justify-center shadow-lg">
+                        <Image
+                          loading="lazy"
+                          src={process.image}
+                          width={32}
+                          height={32}
+                          className="w-8 h-8"
+                          alt="process-image"
+                          style={{ filter: "revert-1" }}
+                        />
+                      </div>
+                    </div>
 
-                  {/* Icon */}
-                  <div className="relative z-10 mb-6">
-                    <div className="w-16 h-16 bg-[#10b981] rounded-full flex items-center justify-center shadow-lg">
-                      <img
-                        loading="lazy"
-                        src={process.image}
-                        className="w-8 h-8"
-                        alt="process-image"
-                        style={{ filter: "revert-1" }}
-                      />
+                    {/* Step Number */}
+                    <div className="absolute top-4 right-4 w-8 h-8 bg-[#10b981] text-white rounded-full flex items-center justify-center text-sm font-bold">
+                      0{index + 1}
+                    </div>
+
+                    {/* Content */}
+                    <h3 className="text-2xl font-bold text-black mb-4 group-hover:text-[#10b981] transition-colors duration-300">
+                      {process.title}
+                    </h3>
+                    <p className="text-gray-600 leading-relaxed">
+                      {process.description}
+                    </p>
+
+                    {/* Progress Bar - Changed to green */}
+                    <div className="mt-6 w-full bg-gray-200 rounded-full h-1">
+                      <div
+                        className={`bg-[#10b981] h-1 rounded-full ${`w-${(index + 1) * 1}/6`} group-hover:w-full transition-all duration-500`}
+                      ></div>
                     </div>
                   </div>
-
-                  {/* Step Number */}
-                  <div className="absolute top-4 right-4 w-8 h-8 bg-[#10b981] text-white rounded-full flex items-center justify-center text-sm font-bold">
-                    0{index + 1}
-                  </div>
-
-                  {/* Content */}
-                  <h3 className="text-2xl font-bold text-black mb-4 group-hover:text-[#10b981] transition-colors duration-300">
-                    {process.title}
-                  </h3>
-                  <p className="text-gray-600 leading-relaxed">
-                    {process.description}
-                  </p>
-
-                  {/* Progress Bar - Changed to green */}
-                  <div className="mt-6 w-full bg-gray-200 rounded-full h-1">
-                    <div
-                      className={`bg-[#10b981] h-1 rounded-full ${`w-${(index + 1) * 1}/6`} group-hover:w-full transition-all duration-500`}
-                    ></div>
-                  </div>
                 </div>
-              </div>
-            );
-          })}
-        </div>
+              );
+            })}
+          </div>
         </div>
       </section>
-      {/* CTA Section */}
 
+      {/* CTA Section */}
       <section className="relative py-20 lg:py-28 bg-gradient-to-br from-black via-gray-900 to-black overflow-hidden">
         {/* Background Decorative Elements - Changed to green */}
         <div className="absolute top-0 left-0 w-96 h-96 bg-gradient-to-br from-[#10b981]/20 to-transparent rounded-full blur-3xl"></div>
@@ -810,8 +825,11 @@ export default function Home() {
 
               {/* CTA Buttons */}
               <div className="flex flex-col sm:flex-row gap-4 pt-6">
-                <a   href="https://wa.me/923321380511" 
-                    target="_blank"  className="bg-[#10b981] hover:bg-[#059669] text-white font-semibold px-8 py-4 rounded-xl transition-all duration-300 transform hover:-translate-y-1 hover:shadow-2xl hover:shadow-[#10b981]/25">
+                <a
+                  href="https://wa.me/923321380511"
+                  target="_blank"
+                  className="bg-[#10b981] hover:bg-[#059669] text-white font-semibold px-8 py-4 rounded-xl transition-all duration-300 transform hover:-translate-y-1 hover:shadow-2xl hover:shadow-[#10b981]/25"
+                >
                   Start Your Project Today Contact Us
                 </a>
                 {/* <button className="border border-gray-600 hover:border-[#10b981] text-gray-300 hover:text-white font-semibold px-8 py-4 rounded-xl transition-all duration-300">
@@ -923,10 +941,6 @@ export default function Home() {
         </div>
       </section>
 
-     
-
-      
-
       {/* FAQ Section */}
       <section className="relative bg-gradient-to-b  bg-gradient-to-br from-white via-white to-[#10b981] overflow-hidden">
         <div className="relative z-10 container mx-auto px-4 sm:px-6 lg:px-8 py-16 md:py-20 lg:py-24">
@@ -950,7 +964,7 @@ export default function Home() {
             {/* Description */}
             <p className="text-gray-600 text-lg md:text-xl max-w-2xl mx-auto leading-relaxed">
               Find answers about our process-driven web development, niche
-              expertise, and hybrid service model. Can't find what you're
+              expertise, and hybrid service model. Can&apos;t find what you&apos;re
               looking for? Contact us for personalized consultation about your
               project needs.
             </p>

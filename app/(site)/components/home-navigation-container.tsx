@@ -96,9 +96,16 @@ export default function HomeNavigationContainer() {
       <div className="flex gap-5 justify-between items-center px-8 py-3.5 w-full border border-solid shadow-md backdrop-blur-[36px] bg-black  border-white border-opacity-10  max-md:flex-wrap max-md:px-5 max-md:max-w-full">
         <span className="relative" style={{ zIndex: 1000 }}>
           <Link href={`/`} className=" my-auto">
-            <h1 className="text-white text-2xl">
+            {/* <h1 className="text-white text-2xl">
              <span className="text-[#10b981]"> Green </span>Solution
-            </h1>
+            </h1> Green-Solution-logo*/}
+             <Image
+                            src="/Green-Solution-logo.png"
+                            alt="logo"
+                            height={80}
+                            width={80}
+                            className="w-full h-auto"
+                          />
           </Link>
         </span>
         <div
@@ -716,11 +723,13 @@ export default function HomeNavigationContainer() {
                     <div className="grid grid-cols-1 gap-3 lg:p-0 rounded-2xl">
                       <div className="grid items-start h-full">
                         <div className="">
-                          <img
+                           <Image
                             src="/menu-img.jpg"
                             alt="about us"
                             className="object-cover h-full width-full rounded-2xl"
                             loading="lazy"
+                             width={600}
+                            height={400}
                           />
                         </div>
                       </div>
@@ -779,18 +788,18 @@ export default function HomeNavigationContainer() {
           </Link> */}
 
           <div
-            className={`xl:hidden absolute top-0 right-0 bottom-0 left-0 w-full h-screen bg-white ease-in duration-300 overflow-y-auto ${menuState.menuIcon ? "translate-x-0" : "translate-x-full"}`}
+            className={`xl:hidden absolute top-0 right-0 bottom-0 left-0 w-full h-screen bg-black ease-in duration-300 overflow-y-auto ${menuState.menuIcon ? "translate-x-0" : "translate-x-full"}`}
           >
             <div className="xl:hidden">
               {menuState.menuIcon && (
                 <div className="mobile-menu">
-                  <ul className="text-black text-sm flex flex-col pt-20 pb-8 px-6">
-                    <li className="border-t border-b border-gray-200 border-opacity-50 py-4">
+                  <ul className="text-white text-sm flex flex-col pt-20 pb-8 px-6">
+                    <li className="border-t border-b text-white border-gray-200 border-opacity-50 py-4">
                       <Link href="/" onClick={handleToggleMenuIcon}>
                         Home
                       </Link>
                     </li>
-                    <li className="border-b border-gray-200 border-opacity-50 py-4">
+                    <li className="border-b text-white border-gray-200 border-opacity-50 py-4">
                       <div
                         className=""
                         // onClick={toggleMenuVisibility}
@@ -894,7 +903,7 @@ export default function HomeNavigationContainer() {
                       )} */}
                     </li>
 
-                    <li className="border-b border-gray-200 border-opacity-50 py-4">
+                    <li className="border-b text-white border-gray-200 border-opacity-50 py-4">
                       <Link href="/about" onClick={handleToggleMenuIcon}>
                         <span>About Us</span>
                       </Link>
@@ -1014,11 +1023,11 @@ export default function HomeNavigationContainer() {
                         Blogs
                       </Link>
                     </li> */}
-                    {/* <li className="border-b border-gray-200 border-opacity-50 py-4">
-                      <Link href="/career" onClick={handleToggleMenuIcon}>
-                        Career
+                    <li className="border-b text-white border-gray-200 border-opacity-50 py-4">
+                      <Link href="/contact-us" onClick={handleToggleMenuIcon}>
+                        Contact-us
                       </Link>
-                    </li> */}
+                    </li>
                     {/* <li className="border-b border-gray-200 border-opacity-50 py-4">
                       <Link href="/technologies" onClick={handleToggleMenuIcon}>
                         Technologies

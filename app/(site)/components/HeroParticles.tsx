@@ -67,11 +67,11 @@ export default function HeroParticles() {
               distance: 120,
               color: "#00ff00", // Green lines
               opacity: 0.6,
-              width: 1,
+              width: 2,
             },
             move: {
               enable: true,
-              speed: 2,
+              speed: 3,
               direction: "none",
               random: true,
               straight: false,

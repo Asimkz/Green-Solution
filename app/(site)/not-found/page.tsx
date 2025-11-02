@@ -1,7 +1,7 @@
 import Link from 'next/link';
 import HomeNavigationContainer from '../components/home-navigation-container';
 import FooterContainer from '../components/footer-container';
-
+import Image from "next/image";
 
 export const metadata = {
   title: "Software Development Company in the USA | GreenSolution",
@@ -28,10 +28,13 @@ const NotFoundPage = () => {
       <main className="flex flex-grow items-center justify-center px-4 mt-32 pb-12">
         <div className="max-w-lg bg-white rounded-2xl px-4 py-6 shadow-lg text-center">
           {/* Animated Image */}
-          <img
+           <Image
             src="/404.png" // Ensure this file exists in the public directory
             alt="404 Animation"
+         
             className="w-64 mx-auto mb-6 animate-pulse"
+               width={64}
+            height={400}
           />
           <h1 className="text-3xl font-semibold text-gray-800 mb-4">Oops! Page Not Found</h1>
           <p className="text-lg text-gray-600 mb-8">

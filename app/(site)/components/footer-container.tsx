@@ -14,20 +14,20 @@ export default function FooterContainer() {
     {
       src: "/facebook-icon.svg",
       alt: "facebook",
-      link: "https://www.facebook.com/",
+      link: "https://www.facebook.com/itsgreensolution",
     },
-    {
-      src: "/instagram-icon.svg",
-      alt: "Instagram",
-      link: "https://www.instagram.com/",
-    },
-    { src: "/twitter-new.svg", alt: "twitter", link: "https://twitter.com/" },
+    // {
+    //   src: "/instagram-icon.svg",
+    //   alt: "Instagram",
+    //   link: "https://www.instagram.com/",
+    // },
+    // { src: "/twitter-new.svg", alt: "twitter", link: "https://twitter.com/" },
     {
       src: "/linkedin-icon.svg",
       alt: "Linkedin",
-      link: "https://www.linkedin.com/company/",
+      link: "https://www.linkedin.com/company/itsgreensolution",
     },
-    { src: "/youtube.png", alt: "Youtube", link: "https://www.youtube.com/" },
+    // { src: "/youtube.png", alt: "Youtube", link: "https://www.youtube.com/" },
   ];
 
   return (
