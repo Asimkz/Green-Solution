@@ -280,10 +280,10 @@ export default async function ServiceSummary() {
              
             </h1>
             <h2 className="lg:text-2xl text-base text-center mt-4 ">
-              "Together, we combine strategic business development with technical excellence to deliver 
+              Together&apos; we combine strategic business development with technical excellence to deliver 
               outstanding web solutions for <span className="text-[#10b981] font-semibold">
                SMEs in Pakistan and clients worldwide.
-              </span>"
+              </span>
             </h2>
           </div>
         </div>
