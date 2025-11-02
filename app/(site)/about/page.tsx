@@ -242,7 +242,7 @@ export default async function ServiceSummary() {
               className="text-center group"
             >
               {/* Image Container */}
-              <div className="relative mb-6 mx-auto w-[400px] h-[400px] rounded-[20px] overflow-hidden border-4 border-white shadow-lg group-hover:shadow-xl transition-shadow duration-300">
+              <div className="relative mb-6 mx-auto w-[full] h-[600px] rounded-[20px] overflow-hidden border-4 border-white shadow-lg group-hover:shadow-xl transition-shadow duration-300">
                 <Image
                   src={ceo.image}
                   alt={ceo.name}
