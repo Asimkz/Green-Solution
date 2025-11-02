@@ -247,7 +247,8 @@ export default async function ServiceSummary() {
                   src={ceo.image}
                   alt={ceo.name}
                   fill
-                  className="object-cover group-hover:scale-110 transition-transform duration-500"
+                  className="object-cover group-hover:scale-110 transition-transform duration-500 max-w-[100%] h-auto"
+                  
                 />
                 {/* CEO Badge */}
                 <div className="absolute top-2 right-2 bg-[#10b981] text-white text-xs px-2 py-1 rounded-full font-medium">
