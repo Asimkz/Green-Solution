@@ -50,7 +50,7 @@ const ContactUs: React.FC = () => {
 
       {/* Direct Contact Section */}
       <ScrollAnimation>
-        <div className="py-20 lg:py-32 bg-white">
+        <div className="py-20 lg:py-32 bg-gradient-to-br from-[#10b981] via-white to-white overflow-hidden">
           <div className="container mx-auto px-6 lg:px-20">
             <div className="max-w-4xl mx-auto text-center">
               <h2 className="text-4xl lg:text-6xl font-bold text-black mb-6 leading-tight">

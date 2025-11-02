@@ -158,7 +158,22 @@ export async function generateMetadata() {
 export default async function ServiceSummary() {
   const data = serviceSummaryData;
   const dataLogo = [];
-
+  const ceoData = [
+    {
+      id: 1,
+      name: "Syed Daim Ali",
+      role: "CEO & Project Strategist",
+      shortDesc: "Expert in client relations and project planning with proven success on Upwork.",
+      image: "/ceo-daim.png",
+    },
+    {
+      id: 2, 
+      name: "Muhammad Asim",
+      role: "CEO & Technical Lead",
+      shortDesc: "Full-stack developer specializing in scalable web solutions and team leadership.",
+      image: "/ceo-m.asim.jpg",
+    }
+  ];
   return (
     <div className="">
       {/* Hero Section */}
@@ -191,9 +206,8 @@ export default async function ServiceSummary() {
           </div>
         </div>
       </div>
-
       {/* Introduction Section */}
-      <div className="px-6 md:px-16 py-10 md:py-16 bg-white">
+      <div className="px-6 md:px-16 py-10 md:py-16 ">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="">
             <div className="">
@@ -208,8 +222,77 @@ export default async function ServiceSummary() {
         </div>
       </div>
 
+   <section className="py-16 bg-white">
+      <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+        {/* Section Header */}
+        <div className="text-center mb-12">
+          <h2 className="text-3xl font-bold text-gray-900 mb-4">
+            Our <span className="text-[#10b981]">Leadership</span>
+          </h2>
+          <p className="text-lg text-gray-600 max-w-2xl mx-auto">
+            Meet the visionaries driving our success in web development and digital solutions.
+          </p>
+        </div>
+
+        {/* CEO Cards */}
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 lg:gap-12">
+          {ceoData.map((ceo, index) => (
+            <div 
+              key={ceo.id}
+              className="text-center group"
+            >
+              {/* Image Container */}
+              <div className="relative mb-6 mx-auto w-[400px] h-[400px] rounded-[20px] overflow-hidden border-4 border-white shadow-lg group-hover:shadow-xl transition-shadow duration-300">
+                <Image
+                  src={ceo.image}
+                  alt={ceo.name}
+                  fill
+                  className="object-cover group-hover:scale-110 transition-transform duration-500"
+                />
+                {/* CEO Badge */}
+                <div className="absolute top-2 right-2 bg-[#10b981] text-white text-xs px-2 py-1 rounded-full font-medium">
+                  CEO
+                </div>
+              </div>
+
+              {/* Content */}
+              <div className="space-y-3">
+                <h3 className="text-xl font-bold text-gray-900">
+                  {ceo.name}
+                </h3>
+                <p className="text-[#10b981] font-semibold">
+                  {ceo.role}
+                </p>
+                <p className="text-gray-600 text-sm leading-relaxed max-w-xs mx-auto">
+                  {ceo.shortDesc}
+                </p>
+              </div>
+            </div>
+          ))}
+        </div>
+
+        {/* Combined Mission */}
+         <div className="flex relative flex-col justify-center items-center lg:px-20 px-5 mt-20">
+          <div>
+            <h1 className="lg:text-4xl text-2xl font-bold text-center capitalize max-lg:mt-0 lg:w-8/12 mx-auto">
+              Our Shared
+              <span className="text-[#10b981] mt-2"> Vision </span>
+             
+            </h1>
+            <h2 className="lg:text-2xl text-base text-center mt-4 ">
+              "Together, we combine strategic business development with technical excellence to deliver 
+              outstanding web solutions for <span className="text-[#10b981] font-semibold">
+               SMEs in Pakistan and clients worldwide.
+              </span>"
+            </h2>
+          </div>
+        </div>
+      
+      </div>
+    </section>
+      
       {/* Detail Section */}
-      <div className="px-6 md:px-16 py-10 md:py-16 bg-white">
+      <div className="px-6 md:px-16 py-10 md:py-16 bg-gradient-to-br from-white to-[#10b981] overflow-hidden">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl font-bold text-center text-black mb-10">
             {data.detailSection.heading}
@@ -242,7 +325,7 @@ export default async function ServiceSummary() {
       </div>
 
       {/* Project Cycle Section */}
-      <div className="px-6 md:px-16 py-10 md:py-16 bg-white">
+      <div className="px-6 md:px-16 py-10 md:py-16 bg-gradient-to-br from-[#10b981] via-white to-white overflow-hidden">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl font-bold text-black text-center mb-16">
             {data.projectCycleSection?.projectCycleHaeding}
@@ -278,7 +361,7 @@ export default async function ServiceSummary() {
       </div>
 
       {/* Summary Section */}
-      <div className="px-6 md:px-16 py-10 md:py-16 bg-white">
+      <div className="px-6 md:px-16 py-10 md:py-16 bg-gradient-to-br from-white to-[#10b981] overflow-hidden">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row items-center justify-center">
           <div className="w-full md:w-1/2 md:pr-8">
             <div className="max-w-2xl">
@@ -291,7 +374,7 @@ export default async function ServiceSummary() {
             </div>
           </div>
           <div className="w-full md:w-1/2 mt-8 md:mt-0 md:pl-8 md:flex md:justify-center">
-            <div className="bg-gray-200 rounded-lg overflow-hidden">
+            <div className="rounded-lg overflow-hidden">
               {data.bannerFiveImage && (
                 <Image
                   loading="lazy"

@@ -339,7 +339,7 @@ export default function Home() {
 
                 <div className="absolute -bottom-6 -right-6 bg-white rounded-2xl p-4 shadow-xl border border-gray-100 hidden lg:block">
                   <div className="text-center">
-                    <div className="text-2xl font-bold text-[#10b981]">3+</div>
+                    <div className="text-2xl font-bold text-[#10b981]">5+</div>
                     <div className="text-xs text-gray-600 font-medium">
                       Years Experience
                     </div>
@@ -566,7 +566,7 @@ export default function Home() {
                 {/* Main image container */}
                 <div className="relative bg-white rounded-2xl p-4 shadow-2xl">
                   <Image
-                    src="/choose-us-main2.png"
+                    src="/choose-us-main3.png"
                     alt="Software Development Services"
                     width={600}
                     height={400}

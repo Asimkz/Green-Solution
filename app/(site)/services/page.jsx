@@ -25,18 +25,18 @@ const Services = async () => {
       <div className="relative w-full min-h-screen flex items-center justify-center overflow-hidden">
         <Image
           loading="lazy"
-          className="absolute top-0 left-0 object-cover inset-0 size-full"
-              width={600}
-             height={400}
+          className="top-0 left-0 object-cover absolute inset-0 size-full"
+              width={1920}
+            height={1080}
           src="/services-back2.jpg"
           alt="Services"
         />
         <div className="absolute top-0 left-0 w-full h-full bg-[#000000] opacity-80"></div>
 
-        <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
+        <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 " style={{paddingTop:"10%", paddingBottom:"10%"}}>
           <ScrollAnimation className="text-center">
             <div className="lg:mb-16 mb-10 flex flex-col items-center">
-              <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold text-[#FFFFFF] lg:mb-6 mb-3 leading-tight text-center flex items-center gap-3">
+              <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold text-[#FFFFFF] lg:my-6 mb-3 leading-tight text-center flex items-center gap-3">
                 Our
                 <span className="block text-[#10b981] relative mt-2">
                   Services
@@ -147,7 +147,7 @@ const Services = async () => {
 
       {/* Digital Partner Section */}
       <ScrollAnimation>
-        <section className="relative w-full py-20 lg:py-32 bg-[#FFFFFF] overflow-hidden">
+        <section className="relative w-full py-20 lg:py-32 bg-gradient-to-br from-[#10b981] via-white to-white overflow-hidden">
           <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center lg:mb-20 mb-12">
               <h2 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-[#000000] leading-tight lg:mb-8 mb-3">
@@ -191,7 +191,7 @@ const Services = async () => {
 
       {/* Trust & Success Section */}
       <ScrollAnimation>
-        <section className="relative w-full py-4 lg:py-32 bg-gradient-to-br from-[#FFFFFF] to-gray-50 overflow-hidden">
+        <section className="relative w-full py-4 lg:py-32 bg-gradient-to-br from-white via-white to-[#10b981] overflow-hidden">
           <div className="absolute inset-0 overflow-hidden">
             <div className="absolute top-32 right-1/4 w-48 h-48 bg-[#10b981] rounded-full opacity-5 blur-2xl animate-pulse"></div>
             <div className="absolute top-1/4 left-16 w-20 h-20 border-2 border-[#10b981] opacity-15 rotate-12"></div>
@@ -301,7 +301,7 @@ const Services = async () => {
       </ScrollAnimation>
 
       {/* Growth Cards Section */}
-      <section className="relative bg-gradient-to-b from-gray-50 to-[#FFFFFF] py-20 lg:py-32 overflow-hidden">
+      <section className="relative py-20 lg:py-32 bg-gradient-to-br from-[#10b981] via-white to-white overflow-hidden">
         <div className="absolute inset-0 overflow-hidden">
           <div className="absolute top-20 right-1/3 w-72 h-72 bg-[#10b981] rounded-full opacity-5 blur-3xl"></div>
           <div className="absolute bottom-32 left-1/4 w-48 h-48 bg-[#10b981] opacity-5 blur-2xl"></div>
@@ -331,7 +331,7 @@ const Services = async () => {
 
                 return (
                   <div key={card.id} className="group relative">
-                    <div className="relative bg-[#FFFFFF] rounded-2xl p-6 shadow-lg transition-all duration-300 border border-gray-100">
+                    <div className="relative bg-[#FFFFFF] rounded-2xl p-6 shadow-lg transition-all duration-300 border border-gray-100 lg:h-[300px] h-[100%]">
                       <div className="absolute -top-6 right-6 z-10">
                         <div className="w-16 h-16 bg-[#10b981] rounded-full flex items-center justify-center shadow-lg">
                           {IconComponent && (
@@ -358,7 +358,7 @@ const Services = async () => {
       </section>
 
       {/* Process Steps Section */}
-      <section className="relative bg-gradient-to-br from-[#FFFFFF] to-gray-50 py-20 lg:py-32 overflow-hidden">
+      <section className="relative  py-20 lg:py-32 bg-gradient-to-br from-white via-white to-[#10b981] overflow-hidden">
         <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <ScrollAnimation>
             <div className="text-center mb-20">

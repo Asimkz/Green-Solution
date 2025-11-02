@@ -160,12 +160,12 @@ export default function FooterContainer() {
                     </svg>
                   </div>
                   <a 
-                    href="https://wa.me/923321380511" 
+                    href="https://wa.me/+923221380511" 
                     target="_blank" 
                     rel="noopener noreferrer"
                     className="hover:text-[#10b981] transition-colors duration-300"
                   >
-                  +92 332 1380511
+                  +923221380511
                   </a>
                 </div>
               </div>
