@@ -25,7 +25,7 @@ export default function FooterContainer() {
     {
       src: "/linkedin-icon.svg",
       alt: "Linkedin",
-      link: "https://www.linkedin.com/company/itsgreensolution",
+      link: "https://www.linkedin.com/company/green-solution-web-agency",
     },
     // { src: "/youtube.png", alt: "Youtube", link: "https://www.youtube.com/" },
   ];

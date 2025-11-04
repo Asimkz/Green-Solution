@@ -171,7 +171,7 @@ export default async function ServiceSummary() {
       name: "Muhammad Asim",
       role: "CEO & Technical Lead",
       shortDesc: "Full-stack developer specializing in scalable web solutions and team leadership.",
-      image: "/ceo-m.asim.jpg",
+      image: "/ceo-m-asim.jpg",
     }
   ];
   return (
