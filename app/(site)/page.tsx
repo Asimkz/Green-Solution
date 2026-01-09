@@ -65,8 +65,8 @@ export default function Home() {
     {
       imageSrc: "/stats1.png",
       alt: "Web Development Process Excellence",
-      heading: "Process-Driven Delivery",
-      text: "100% on-time project delivery through our milestone-based development workflow and transparent client communication",
+      heading: "Process Driven Delivery",
+      text: "100% on-time project delivery through our milestone based development workflow and transparent client communication",
     },
     {
       imageSrc: "/stats2.png",
@@ -265,25 +265,28 @@ export default function Home() {
               <div className="bg-white rounded-2xl p-8 shadow-xl border border-gray-100">
                 <div className="space-y-6">
                   <p className="text-lg text-gray-700 leading-relaxed">
-                    We are a{" "}
+                    We are an{" "}
                     <span className="font-semibold text-[#10b981]">
-                      lean web development software house
+                      Agile software engineering house 
                     </span>{" "}
-                    operating on a hybrid model that combines international
-                    freelance excellence with specialized local market expertise
-                    in Pakistan&apos;s SME sector.
+                  
                   </p>
 
                   <div className="w-16 h-1 bg-gradient-to-r from-[#10b981] to-[#059669] rounded-full"></div>
 
                   <p className="text-lg text-gray-700 leading-relaxed">
-                    Our process-driven approach delivers{" "}
-                    <span className="font-semibold text-[#10b981]">
-                      conversion-focused, scalable solutions
+                   Our company builds websites and <span className="font-semibold text-[#10b981]">
+                     web applications using modern tools like MERN, MEVN, WordPress, and Shopify.
                     </span>{" "}
-                    that bridge the digitization gap for local industries while
-                    maintaining global quality standards for international
-                    clients.
+                  We also provide full support after the website is launched, including hosting, security, speed optimization, and SEO, so the website performs well and appears on the first page of Google search results.
+
+
+We focus on websites for clinics and schools, offering features such as booking systems and secure payment options. Our team works in a clear, step by step process to create websites that attract more customers and help businesses grow rapidly.
+
+In addition to web solutions, we also develop mobile applications for Android and iOS. Our mobile apps are designed to be user friendly, secure, and scalable. We ensure smooth performance and long term support for all mobile application projects.
+
+
+We are a small but highly skilled team, combining international quality standards with strong local market knowledge in Pakistan, allowing us to deliver reliable digital solutions for both local and international clients.
                   </p>
                 </div>
               </div>
@@ -332,7 +335,7 @@ export default function Home() {
                       100%
                     </div>
                     <div className="text-xs text-gray-600 font-medium">
-                      On-Time Delivery
+                      On Time Delivery
                     </div>
                   </div>
                 </div>
@@ -459,9 +462,9 @@ export default function Home() {
             </div>
 
             <h3 className="text-3xl md:text-5xl font-bold text-black mb-6 leading-tight">
-              Process-Driven Web Solutions
+            Process Driven Web and  
               <span className="block text-[#10b981] lg:mt-3">
-                For Global & Local Markets
+                Mobile Apps Solutions
               </span>
             </h3>
 
@@ -541,7 +544,7 @@ export default function Home() {
             </div>
 
             <h3 className="text-3xl md:text-5xl font-bold text-black mb-6 leading-tight max-w-4xl mx-auto">
-              Why Choose Our Process-Driven
+              Why Choose Our Process Driven
               <span className="block text-[#10b981] lg:mt-3">
                 Web Development Approach?
               </span>
@@ -550,7 +553,7 @@ export default function Home() {
             <p className="text-lg xl:text-xl text-gray-600 max-w-4xl mx-auto leading-relaxed">
               Partner with us to access professional web solutions that bridge
               global quality standards with local market expertise, delivering
-              conversion-focused results for your business.
+              conversion focused results for your business.
             </p>
           </div>
 
@@ -581,7 +584,7 @@ export default function Home() {
                       100%
                     </div>
                     <div className="text-sm text-gray-600 font-medium">
-                      On-Time Delivery
+                      On Time Delivery
                     </div>
                   </div>
                 </div>
@@ -706,12 +709,12 @@ export default function Home() {
             </div>
             <h2 className="xl:text-5xl lg:text-4xl md:text-3xl text-2xl font-bold text-black mb-4">
               {HomeData.developmentProcess.title ||
-                "Our Process-Driven Development"}
+                "Our Process Driven Development"}
             </h2>
 
             <p className="text-gray-600 max-w-2xl mx-auto text-lg">
               {HomeData.developmentProcess.description ||
-                "A structured, milestone-based approach that combines global quality standards with local market expertise to deliver conversion-focused web solutions."}
+                "A structured, milestone based approach that combines global quality standards with local market expertise to deliver conversion focused web solutions."}
             </p>
             <div className="w-24 h-1 bg-[#10b981] mx-auto mb-6"></div>
           </div>
@@ -795,12 +798,12 @@ export default function Home() {
                 </div>
 
                 <h4 className="text-4xl lg:text-5xl xl:text-6xl font-bold leading-tight">
-                  Need a Conversion-Focused
+                  Need a Conversion Focused
                   <span className="block text-[#10b981]">Web Solution?</span>
                 </h4>
 
                 <p className="text-xl text-gray-300 max-w-lg leading-relaxed">
-                  Get professional, process-driven web development that bridges
+                  Get professional, process driven web development that bridges
                   global quality with local expertise — designed to generate
                   leads and scale with your business growth.
                 </p>
@@ -810,7 +813,7 @@ export default function Home() {
               <div className="flex flex-wrap gap-4 pt-6">
                 {[
                   "Free Project Consultation & Quote",
-                  "Milestone-Based Development Process",
+                  "Milestone Based Development Process",
                   "Post-Launch Support & Maintenance",
                 ].map((feature, index) => (
                   <div
@@ -933,7 +936,7 @@ export default function Home() {
                   />
                 </svg>
                 <span className="text-sm font-medium">
-                  Process-Driven & Milestone-Based Development
+                  Process Driven & Milestone Based Development
                 </span>
               </div>
             </div>
@@ -963,7 +966,7 @@ export default function Home() {
 
             {/* Description */}
             <p className="text-gray-600 text-lg md:text-xl max-w-2xl mx-auto leading-relaxed">
-              Find answers about our process-driven web development, niche
+              Find answers about our process driven web development, niche
               expertise, and hybrid service model. Can&apos;t find what you&apos;re
               looking for? Contact us for personalized consultation about your
               project needs.

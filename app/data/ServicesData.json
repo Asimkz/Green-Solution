@@ -23,6 +23,12 @@
       "icon": "FaRocket",
       "title": "Scalable Solutions",
       "description": "Future-proof digital products built for long-term growth with recurring revenue services for ongoing business success."
+    },
+    {
+      "id": 5,
+      "icon": "FaLightbulb",
+      "title": " Ironclad NDA & IP Protection",
+      "description": "We prioritize your intellectual property. Every partnership begins with a signed NDA, ensuring 100% confidentiality. Upon project completion, all code rights and assets are fully transferred to you or your client."
     }
   ],
   "processSteps": [
@@ -30,7 +36,7 @@
       "id": 1,
       "stepNumber": "01",
       "title": "Requirement Analysis",
-      "description": "Comprehensive discovery of business needs, target market analysis, and conversion-focused goal setting for your digital solution."
+      "description": "Comprehensive discovery of business needs, target market analysis, and conversion focused goal setting for your digital solution."
     },
     {
       "id": 2,

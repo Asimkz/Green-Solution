@@ -6,10 +6,10 @@ import { FaLightbulb, FaUsers, FaCogs, FaRocket } from "react-icons/fa";
 export const metadata = {
   title: "Software Development Company | Green Solution",
   description:
-    "GreenSolution is a process-driven web development company specializing in custom solutions for SMEs and international clients. Build scalable digital products with experts.",
+    "GreenSolution is a process driven web and mobile applications development company specializing in custom solutions for SMEs and international clients. Build scalable digital products with experts.",
   keywords: [
     "GreenSolution",
-    "web development company Pakistan",
+    "web and mobile development company Pakistan",
     "custom web development",
     "SME digital solutions",
   ],
@@ -48,7 +48,7 @@ const Services = async () => {
                   <span className="text-[#10b981] font-semibold">
                     GreenSolution
                   </span>{" "}
-                  delivers professional, process-driven web development solutions 
+                  delivers professional, process driven web and mobile applications development solutions 
                   designed for conversion and long-term scalability, serving both 
                   international clients and local Pakistani SMEs.
                 </p>
@@ -56,91 +56,76 @@ const Services = async () => {
             </div>
 
             {/* Service Categories */}
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-8 lg:mt-20 mt-4">
-              <div className="group relative">
-                <div className="absolute inset-0 bg-gradient-to-br from-[#10b981] to-[#10b981]/80 rounded-2xl transform transition-all duration-300 opacity-10"></div>
-                <div className="relative p-8 rounded-2xl border border-[#FFFFFF]/20 bg-[#FFFFFF]/10 backdrop-blur-sm transition-all duration-300">
-                  <div className="w-16 h-16 bg-[#10b981] rounded-xl flex items-center justify-center mb-6 mx-auto transition-transform duration-300">
-                    <svg
-                      className="w-8 h-8 text-[#FFFFFF]"
-                      fill="none"
-                      stroke="currentColor"
-                      viewBox="0 0 24 24"
-                    >
-                      <path
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        strokeWidth={2}
-                        d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4"
-                      />
-                    </svg>
-                  </div>
-                  <h3 className="text-2xl font-bold text-[#FFFFFF] mb-4">
-                    Custom Development
-                  </h3>
-                  <p className="text-[#FFFFFF]/80 leading-relaxed">
-                    Scalable web applications using modern stacks (MERN/MEVN, WordPress) 
-                    with focus on UI/UX best practices and conversion optimization
-                  </p>
-                </div>
-              </div>
+           <div className="grid grid-cols-1 md:grid-cols-2 gap-4 lg:mt-20 mt-4">
+  {/* Existing Card 1 */}
+  <div className="group relative">
+    <div className="absolute inset-0 bg-gradient-to-br from-[#10b981] to-[#10b981]/80 rounded-2xl transform transition-all duration-300 opacity-10"></div>
+    <div className="relative p-8 rounded-2xl border border-[#FFFFFF]/20 bg-[#FFFFFF]/10 backdrop-blur-sm transition-all duration-300">
+      <div className="w-16 h-16 bg-[#10b981] rounded-xl flex items-center justify-center mb-6 mx-auto transition-transform duration-300">
+        <svg className="w-8 h-8 text-[#FFFFFF]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4"/>
+        </svg>
+      </div>
+      <h3 className="text-2xl font-bold text-[#FFFFFF] mb-4 text-center">Custom Development</h3>
+      <p className="text-[#FFFFFF]/80 leading-relaxed text-center">
+        Scalable web applications using modern stacks (MERN/MEVN, WordPress) 
+        with focus on UI/UX best practices and conversion optimization
+      </p>
+    </div>
+  </div>
 
-              <div className="group relative">
-                <div className="absolute inset-0 bg-gradient-to-br from-[#10b981] to-[#10b981]/80 rounded-2xl transform transition-all duration-300 opacity-10"></div>
-                <div className="relative p-8 rounded-2xl border border-[#FFFFFF]/20 bg-[#FFFFFF]/10 backdrop-blur-sm transition-all duration-300">
-                  <div className="w-16 h-16 bg-[#10b981] rounded-xl flex items-center justify-center mb-6 mx-auto transition-transform duration-300">
-                    <svg
-                      className="w-8 h-8 text-[#FFFFFF]"
-                      fill="none"
-                      stroke="currentColor"
-                      viewBox="0 0 24 24"
-                    >
-                      <path
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        strokeWidth={2}
-                        d="M20 7l-8-4-8 4m16 0l-8 4m8-4v10l-8 4m0-10L4 7m8 4v10M4 7v10l8 4"
-                      />
-                    </svg>
-                  </div>
-                  <h3 className="text-2xl font-bold text-[#FFFFFF] mb-4">
-                    Niche Solutions
-                  </h3>
-                  <p className="text-[#FFFFFF]/80 leading-relaxed">
-                    Industry-specific solutions for Medical Clinics & Educational 
-                    Institutes with booking systems, payment gateways, and custom portals
-                  </p>
-                </div>
-              </div>
+  {/* Existing Card 2 */}
+  <div className="group relative">
+    <div className="absolute inset-0 bg-gradient-to-br from-[#10b981] to-[#10b981]/80 rounded-2xl transform transition-all duration-300 opacity-10"></div>
+    <div className="relative p-8 rounded-2xl border border-[#FFFFFF]/20 bg-[#FFFFFF]/10 backdrop-blur-sm transition-all duration-300">
+      <div className="w-16 h-16 bg-[#10b981] rounded-xl flex items-center justify-center mb-6 mx-auto transition-transform duration-300">
+        <svg className="w-8 h-8 text-[#FFFFFF]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M20 7l-8-4-8 4m16 0l-8 4m8-4v10l-8 4m0-10L4 7m8 4v10M4 7v10l8 4"/>
+        </svg>
+      </div>
+      <h3 className="text-2xl font-bold text-[#FFFFFF] mb-4 text-center">Niche Solutions</h3>
+      <p className="text-[#FFFFFF]/80 leading-relaxed text-center">
+        Industry-specific solutions for Medical Clinics & Educational 
+        Institutes with booking systems, payment gateways, and custom portals
+      </p>
+    </div>
+  </div>
 
-              <div className="group relative">
-                <div className="absolute inset-0 bg-gradient-to-br from-[#10b981] to-[#10b981]/80 rounded-2xl transform  transition-all duration-300 opacity-10"></div>
-                <div className="relative p-8 h-full rounded-2xl border border-[#FFFFFF]/20 bg-[#FFFFFF]/10 backdrop-blur-sm transition-all duration-300">
-                  <div className="w-16 h-16 bg-[#10b981] rounded-xl flex items-center justify-center mb-6 mx-auto transition-transform duration-300">
-                    <svg
-                      className="w-8 h-8 text-[#FFFFFF]"
-                      fill="none"
-                      stroke="currentColor"
-                      viewBox="0 0 24 24"
-                    >
-                      <path
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        strokeWidth={2}
-                        d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1"
-                      />
-                    </svg>
-                  </div>
-                  <h3 className="text-2xl font-bold text-[#FFFFFF] mb-4">
-                    Recurring Services
-                  </h3>
-                  <p className="text-[#FFFFFF]/80 leading-relaxed">
-                    Managed hosting, security monitoring, performance optimization, 
-                    and SEO retainer packages for sustainable growth
-                  </p>
-                </div>
-              </div>
-            </div>
+  {/* Existing Card 3 */}
+  <div className="group relative">
+    <div className="absolute inset-0 bg-gradient-to-br from-[#10b981] to-[#10b981]/80 rounded-2xl transform transition-all duration-300 opacity-10"></div>
+    <div className="relative p-8 h-full rounded-2xl border border-[#FFFFFF]/20 bg-[#FFFFFF]/10 backdrop-blur-sm transition-all duration-300">
+      <div className="w-16 h-16 bg-[#10b981] rounded-xl flex items-center justify-center mb-6 mx-auto transition-transform duration-300">
+        <svg className="w-8 h-8 text-[#FFFFFF]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1"/>
+        </svg>
+      </div>
+      <h3 className="text-2xl font-bold text-[#FFFFFF] mb-4 text-center">Recurring Services</h3>
+      <p className="text-[#FFFFFF]/80 leading-relaxed text-center">
+        Managed hosting, security monitoring, performance optimization, 
+        and SEO retainer packages for sustainable growth
+      </p>
+    </div>
+  </div>
+
+  {/* New Card 4: Mobile Application Service */}
+  <div className="group relative">
+    <div className="absolute inset-0 bg-gradient-to-br from-[#10b981] to-[#10b981]/80 rounded-2xl transform transition-all duration-300 opacity-10"></div>
+    <div className="relative p-8 h-full rounded-2xl border border-[#FFFFFF]/20 bg-[#FFFFFF]/10 backdrop-blur-sm transition-all duration-300">
+      <div className="w-16 h-16 bg-[#10b981] rounded-xl flex items-center justify-center mb-6 mx-auto transition-transform duration-300">
+        <svg className="w-8 h-8 text-[#FFFFFF]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M7 2h10a2 2 0 012 2v16a2 2 0 01-2 2H7a2 2 0 01-2-2V4a2 2 0 012-2zM12 18h.01M12 14h.01M12 10h.01"/>
+        </svg>
+      </div>
+      <h3 className="text-2xl font-bold text-[#FFFFFF] mb-4 text-center">Mobile Application Service</h3>
+      <p className="text-[#FFFFFF]/80 leading-relaxed text-center">
+        Custom mobile apps for iOS & Android using React Native or Flutter, 
+        focusing on smooth UI, performance, and seamless backend integration
+      </p>
+    </div>
+  </div>
+</div>
+
           </ScrollAnimation>
         </div>
       </div>
@@ -175,7 +160,7 @@ const Services = async () => {
                 <span className="text-[#10b981] font-bold">
                   local digitization gap
                 </span>{" "}
-                while maintaining global competitiveness through process-driven 
+                while maintaining global competitiveness through process driven 
                 development and transparent project delivery.
               </p>
 
@@ -201,7 +186,7 @@ const Services = async () => {
             <div className="grid lg:grid-cols-2 lg:gap-16 gap-8 items-center">
               <div className="space-y-8">
                 <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-[#000000] leading-tight">
-                  Process-Driven Approach For
+                  Process Driven Approach For
                   <span className="block text-[#10b981] lg:mt-4 mt-2 relative">
                     Reliable Delivery
                     <svg
@@ -239,7 +224,7 @@ const Services = async () => {
                   <div className="relative w-96 h-96 lg:w-[500px] lg:h-[500px]">
                     <Image
                       src="/success-image2.png"
-                      alt="Process-Driven Development"
+                      alt="Process Driven Development"
                       width={600}
                       height={600}
                       loading="lazy"
@@ -318,7 +303,7 @@ const Services = async () => {
               </p>
             </div>
 
-            <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-8">
+            <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-8">
               {servicesData.growthCards.map((card, index) => {
                 const iconMap = {
                   FaLightbulb: FaLightbulb,
@@ -367,7 +352,7 @@ const Services = async () => {
                 <span className="text-[#10b981]">Workflow</span>
               </h2>
               <p className="text-xl text-[#000000]/70 max-w-4xl mx-auto leading-relaxed">
-                Transparent, process-driven development ensuring on-time delivery 
+                Transparent, process driven development ensuring on time delivery 
                 and budget adherence
               </p>
             </div>

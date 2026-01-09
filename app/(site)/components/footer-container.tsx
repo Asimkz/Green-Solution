@@ -50,7 +50,7 @@ export default function FooterContainer() {
                   GreenSolution
                 </h1>
                 <p className="mt-4 max-w-sm text-gray-300 leading-relaxed">
-                  Process-driven web development company specializing in custom 
+                  Process driven web and mobile applications development company specializing in custom 
                   solutions for SMEs and international clients. Building scalable 
                   digital products with modern technologies.
                 </p>
@@ -107,7 +107,7 @@ export default function FooterContainer() {
                   Custom Web Development
                 </Link>
                 <Link href="/services" className="hover:text-[#10b981] transition-colors duration-300">
-                  E-commerce Solutions
+                  E commerce Solutions
                 </Link>
                 <Link href="/services" className="hover:text-[#10b981] transition-colors duration-300">
                   Medical Clinic Solutions
@@ -176,7 +176,7 @@ export default function FooterContainer() {
         {/* Copyright */}
         <div className="mt-8 pt-6 border-t border-white/20 w-full max-w-[1582px]">
           <div className="text-center text-gray-300 text-sm">
-            <p>Copyright © 2025 GreenSolution - Process-Driven Web Development Company. All rights reserved.</p>
+            <p>Copyright © 2025 GreenSolution Process Driven Web And Mobile Applications Development Company. All rights reserved.</p>
             <p className="mt-1 text-xs text-gray-400">
               Specializing in SME digital transformation and international web solutions
             </p>

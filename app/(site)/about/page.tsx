@@ -92,7 +92,7 @@ export async function generateMetadata() {
   const defaultTitle =
     "Software Development Company | Green Solution";
   const defaultDescription =
-    "Professional web development solutions for SMEs and international clients. Custom development, niche solutions, and recurring services.";
+    "Professional web and mobile applications development solutions for SMEs and international clients. Custom development, niche solutions, and recurring services.";
   const defaultKeywords = "GreenSolution, web development Pakistan, SME digital solutions, custom web development";
   const canonicalUrl = "";
 
@@ -169,7 +169,7 @@ export default async function ServiceSummary() {
     {
       id: 2, 
       name: "Muhammad Asim",
-      role: "CEO & Technical Lead",
+      role: "COO & Technical Lead",
       shortDesc: "Full-stack developer specializing in scalable web solutions and team leadership.",
       image: "/ceo-m-asim.jpg",
     }
@@ -185,7 +185,7 @@ export default async function ServiceSummary() {
             height={1080}
             className="top-0 left-0 object-cover absolute inset-0 size-full"
             src="/about-banner2.jpg"
-            alt="GreenSolution - Web Development Company"
+            alt="GreenSolution - Web And Mobile Applications Development Company"
           />
         )}
         <div className="absolute top-0 left-0 w-full h-full bg-[#020C16] opacity-85"></div>

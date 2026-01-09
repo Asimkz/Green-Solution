@@ -8,7 +8,7 @@
   },
   "introductionSection": {
     "introHeading": "Welcome to GreenSolution - Your Digital Transformation Partner",
-    "introDesc": "GreenSolution is a lean, process-driven web development software house operating on a robust hybrid model. We combine international market competitiveness with specialized local expertise to deliver professional digital solutions for conversion and long-term scalability. Serving both global clients through platforms like Upwork and Pakistani SMEs, we bridge the digitization gap with modern web technologies and transparent, milestone-based workflows."
+    "introDesc": "GreenSolution is a lean, process-driven web and mobile applications development  software house operating on a robust hybrid model. We combine international market competitiveness with specialized local expertise to deliver professional digital solutions for conversion and long-term scalability. Serving both global clients through platforms like Upwork and Pakistani SMEs, we bridge the digitization gap with modern web technologies and transparent, milestone-based workflows."
   },
   "detailSection": {
     "heading": "Our Core Service Models",
@@ -67,7 +67,19 @@
           "Competitive international pricing",
           "High-margin local SME projects"
         ]
-      }
+      },
+      {
+  "title": "Mobile App Development",
+  "smDescription": "iOS & Android Custom Apps",
+  "description": "We design and develop high-performance mobile applications for iOS and Android using React Native and Flutter. Our apps focus on seamless user experience, smooth performance, and robust backend integration to meet business goals and customer expectations.",
+  "keyBenefits": [
+    "Cross-platform development with React Native & Flutter",
+    "Seamless UI/UX for mobile devices",
+    "Backend integration with APIs and databases",
+    "High-performance and scalable mobile solutions"
+  ]
+}
+
     ]
   },
   "projectManagement": {
