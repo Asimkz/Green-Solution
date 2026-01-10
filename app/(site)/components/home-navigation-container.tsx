@@ -30,6 +30,7 @@ export default function HomeNavigationContainer() {
 
   const [menuVisible, setMenuVisible] = useState(false);
   const [aboutVisible, setAboutVisible] = useState(false);
+  const [portfolioOpen, setPortfolioOpen] = useState(false);
 
   const toggleMenuVisibility = () => {
     setMenuVisible((prevMenuVisible) => !prevMenuVisible);
@@ -99,13 +100,13 @@ export default function HomeNavigationContainer() {
             {/* <h1 className="text-white text-2xl">
              <span className="text-[#10b981]"> Green </span>Solution
             </h1> Green-Solution-logo*/}
-             <Image
-                            src="/Green-Solution-logo.png"
-                            alt="logo"
-                            height={80}
-                            width={80}
-                            className="w-full h-auto"
-                          />
+            <Image
+              src="/Green-Solution-logo.png"
+              alt="logo"
+              height={80}
+              width={80}
+              className="w-full h-auto"
+            />
           </Link>
         </span>
         <div
@@ -723,12 +724,12 @@ export default function HomeNavigationContainer() {
                     <div className="grid grid-cols-1 gap-3 lg:p-0 rounded-2xl">
                       <div className="grid items-start h-full">
                         <div className="">
-                           <Image
+                          <Image
                             src="/menu-img.jpg"
                             alt="about us"
                             className="object-cover h-full width-full rounded-2xl"
                             loading="lazy"
-                             width={600}
+                            width={600}
                             height={400}
                           />
                         </div>
@@ -761,11 +762,63 @@ export default function HomeNavigationContainer() {
             </li> */}
 
             <li className="flex flex-row items-center w-full px-4 py-2 mt-2 md:w-auto md:inline md:mt-0">
-              <Link href="/contact-us" className={linkClasses("/contact-us", pathname)}>
+              <Link
+                href="/contact-us"
+                className={linkClasses("/contact-us", pathname)}
+              >
                 Contact Us
               </Link>
             </li>
+            <li className="flex flex-row items-center w-full px-4 py-2 mt-2 md:w-auto md:inline md:mt-0 justify-center text-lg cursor-pointer">
+              <span
+                onClick={() => setPortfolioOpen(true)}
+                className={linkClasses("/portfolio", pathname)}
+              >
+                Portfolio
+              </span>
+            </li>
+
           </ul>
+          {portfolioOpen && (
+  <div className="fixed inset-0 flex items-center justify-center z-[9999] bg-black/70 backdrop-blur-sm "style={{marginTop:"400px"}}>
+    <div className="relative w-full max-w-lg mx-4 bg-[#0b0b0b] border border-white/10 rounded-2xl p-8 shadow-2xl animate-fadeIn">
+
+      {/* Close Button */}
+      <button
+        onClick={() => setPortfolioOpen(false)}
+        className="absolute top-4 right-4 text-white/70 hover:text-white"
+      >
+        ✕
+      </button>
+
+      {/* Title */}
+      <h2 className="text-2xl font-semibold text-white mb-4">
+        Private Portfolio Access
+      </h2>
+
+      {/* Content */}
+      <p className="text-gray-300 text-sm leading-relaxed mb-6">
+        Due to NDA and confidentiality agreements, we don’t display all our work publicly.
+        <br /><br />
+        However, we’re happy to share a private portfolio with serious agency partners.
+        Please let us know and we’ll provide secure access.
+      </p>
+
+      {/* CTA */}
+      <a
+        href="https://wa.me/+923221380511"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="inline-flex items-center justify-center w-full gap-2 px-6 py-3 text-sm font-semibold text-white bg-[#10b981] rounded-xl hover:bg-[#0ea371] transition-all"
+      >
+        Contact Us on WhatsApp
+        <CgArrowLongRight size={20} />
+      </a>
+
+    </div>
+  </div>
+)}
+
           {/* <Link
             className="hidden xl:flex gap-2 self-stretch  px-4 pt-4 pb-4 text-base font-medium leading-5 rounded-[50px] text-neutral-900 bg-[#F26522] "
             href="tel:+000000000000"
@@ -1028,6 +1081,14 @@ export default function HomeNavigationContainer() {
                         Contact-us
                       </Link>
                     </li>
+                     <li className="border-b text-white border-gray-200 border-opacity-50 py-4 cursor-pointer">
+              <span
+                onClick={() => setPortfolioOpen(true)}
+                className={linkClasses("/portfolio", pathname)}
+              >
+                Portfolio
+              </span>
+            </li>
                     {/* <li className="border-b border-gray-200 border-opacity-50 py-4">
                       <Link href="/technologies" onClick={handleToggleMenuIcon}>
                         Technologies
@@ -1041,5 +1102,7 @@ export default function HomeNavigationContainer() {
         </div>
       </div>
     </div>
+    
   );
+  
 }
