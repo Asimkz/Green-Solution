@@ -251,9 +251,9 @@ export default async function ServiceSummary() {
                   
                 />
                 {/* CEO Badge */}
-                <div className="absolute top-2 right-2 bg-[#10b981] text-white text-xs px-2 py-1 rounded-full font-medium">
+                {/* <div className="absolute top-2 right-2 bg-[#10b981] text-white text-xs px-2 py-1 rounded-full font-medium">
                   CEO
-                </div>
+                </div> */}
               </div>
 
               {/* Content */}
